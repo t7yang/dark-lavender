@@ -1,0 +1,44 @@
+{
+  "name": "dark-lavender",
+  "displayName": "Dark Lavender",
+  "description": "A smooth and nice dark theme for VSCode with material design colors.",
+  "version": "1.0.0",
+  "publisher": "t7yang",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#08121E",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark lavender",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Lavender",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-lavender-color-theme.json"
+      }
+    ]
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/t7yang/dark-lavender",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t7yang/dark-lavender.git"
+  },
+  "bugs": {
+    "url": "https://github.com/t7yang/dark-lavender/issues"
+  },
+  "scripts": {
+    "build": "vsce package"
+  }
+}

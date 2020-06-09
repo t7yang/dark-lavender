@@ -105,14 +105,8 @@
       "name": "Operators",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#B388FF" // purpled-a100
-      }
-    },
-    {
-      "name": "New Operator",
-      "scope": "keyword.operator.new",
-      "settings": {
-        "foreground": "#B388FF" // purpled-a100
+        "foreground": "#B388FF", // purpled-a100
+        "fontStyle": ""
       }
     },
     {
@@ -120,6 +114,7 @@
       "scope": [
         "keyword",
         "keyword.operator.expression",
+        "keyword.operator.new",
         "variable.language",
         "keyword.other.special-method.elixir",
         "meta.control.flow"

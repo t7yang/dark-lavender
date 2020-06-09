@@ -30,9 +30,10 @@
     // progress
     "progressBar.background": "#6200EA", // purpled-a700
     // editor group and tabs
-    "editorGroupHeader.tabsBackground": "#08121E", // bglight
-    "tab.inactiveBackground": "#08121E", // bglight
-    "tab.border": "#04090f", // bg
+    "editorGroupHeader.tabsBackground": "#04090f", // bg
+    "tab.inactiveBackground": "#04090f", // bg
+    "tab.activeBackground": "#08121E", // bglight
+    "tab.border": "#08121E", // bglight
     "tab.activeBorder": "#6200EA", // purpled-a700
     "tab.activeForeground": "#E8EAF6", // indigo-50
     "tab.inactiveForeground": "#9FA8DA", // indigo-200

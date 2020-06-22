@@ -4,6 +4,19 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.1.0] - 2020-06-22
+### Changed
+- Changed bg and bglite color.
+- Adjusted activity bar active color.
+- Replace active tab border from bottom to top.
+
+### Fixed
+- Remove input placeholder color token due same to background color.
+- Markdown link format in README
+
+### Added
+- Added fonts link in README.
+
 ## [1.0.1] - 2020-06-09
 ### Changed
 - Exchange tab active and inactive background color.

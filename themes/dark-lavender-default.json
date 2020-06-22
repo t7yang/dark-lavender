@@ -10,14 +10,14 @@
     "icon.foreground": "#B388FF", // purpled-a100
     // button
     "button.background": "#6200EA", // purpled-a700
-    "checkbox.background": "#08121E", // bglight
+    "checkbox.background": "#151524", // bglight
     // dropdown
-    "dropdown.background": "#08121E", // bglight
-    "dropdown.listBackground": "#08121E", // bglight
+    "dropdown.background": "#151524", // bglight
+    "dropdown.listBackground": "#151524", // bglight
     // input
-    "input.background": "#08121E", // bglight
-    "input.placeholderForeground": "#08121E", // bglight
-    "inputOption.activeBackground": "#04090f00", // bg
+    "input.background": "#151524", // bglight
+    "input.placeholderForeground": "#151524", // bglight
+    "inputOption.activeBackground": "#07070f00", // bg
     "inputOption.activeBorder": "#B388FF", // purpled-a100
     "inputValidation.errorBackground": "#AD1457", // pink-800
     "inputValidation.errorBorder": "#AD1457", // pink-800
@@ -30,21 +30,21 @@
     // progress
     "progressBar.background": "#6200EA", // purpled-a700
     // editor group and tabs
-    "editorGroupHeader.tabsBackground": "#04090f", // bg
-    "tab.inactiveBackground": "#04090f", // bg
-    "tab.activeBackground": "#08121E", // bglight
-    "tab.border": "#08121E", // bglight
+    "editorGroupHeader.tabsBackground": "#07070f", // bg
+    "tab.inactiveBackground": "#07070f", // bg
+    "tab.activeBackground": "#151524", // bglight
+    "tab.border": "#151524", // bglight
     "tab.activeBorder": "#6200EA", // purpled-a700
     "tab.activeForeground": "#E8EAF6", // indigo-50
     "tab.inactiveForeground": "#9FA8DA", // indigo-200
     "tab.activeModifiedBorder": "#FF8F00", // amber-800
     // editor
-    "editor.background": "#04090f", // bg
+    "editor.background": "#07070f", // bg
     "editorLineNumber.activeForeground": "#B388FF", // purpled-a100
     "editorIndentGuide.background": "#404040",
     "editorIndentGuide.activeBackground": "#707070",
     // editor widgets
-    "editorWidget.background": "#04090f", // bg
+    "editorWidget.background": "#07070f", // bg
     "editorWidget.border": "#6200EA", // purpled-a700
     // lists and trees
     "list.dropBackground": "#383B3D",
@@ -53,34 +53,34 @@
     "peekViewEditor.background": "#D1C4E905", // purpled-a100
     "peekViewResult.background": "#D1C4E905", // purpled-a100
     "peekViewEditor.matchHighlightBackground": "#D1C4E930", // purpled-a100
-    "peekViewTitle.background": "#04090f", // bg
+    "peekViewTitle.background": "#07070f", // bg
     // panel
     "panelTitle.activeBorder": "#6200EA",
     // status bar
-    "statusBar.background": "#04090f", // bg
+    "statusBar.background": "#07070f", // bg
     "statusBar.debuggingBackground": "#BF360C", // oranged-900
-    "statusBar.noFolderBackground": "#04090f", // bg
+    "statusBar.noFolderBackground": "#07070f", // bg
     "statusBarItem.prominentBackground": "#6200EA", // purpled-a700
     "statusBarItem.remoteBackground": "#6200EA", // purpled-a700
     // activity bar
-    "activityBar.background": "#04090f", // bg
+    "activityBar.background": "#07070f", // bg
     "activityBar.foreground": "#9FA8DA", // indigo-200
     "activityBar.activeBorder": "#6200EA", // purpled-a700
     "activityBarBadge.background": "#6200EA", // purpled-a700
     // side bar
-    "sideBar.background": "#04090f", // bg
+    "sideBar.background": "#07070f", // bg
     "sideBarTitle.foreground": "#BBBBBB",
     // title bar
-    "titleBar.activeBackground": "#04090f", // bg
-    "titleBar.inactiveBackground": "#08121E", // bglight
+    "titleBar.activeBackground": "#07070f", // bg
+    "titleBar.inactiveBackground": "#151524", // bglight
     // menu
-    "menu.background": "#08121E", // bglight
+    "menu.background": "#151524", // bglight
     // notification
     "notificationToast.border": "#6200EA", // purpled-a700
     // settings editor
     "settings.modifiedItemIndicator": "#FF8F00", // amber-800
-    "settings.textInputBackground": "#08121E", // bglight
-    "settings.numberInputBackground": "#08121E", // bglight
+    "settings.textInputBackground": "#151524", // bglight
+    "settings.numberInputBackground": "#151524", // bglight
     // extension
     "extensionButton.prominentBackground": "#6200EA", // purpled-a700
     "extensionButton.prominentHoverBackground": "#7C4DFF" // purpled-a200

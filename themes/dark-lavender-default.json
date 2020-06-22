@@ -63,8 +63,8 @@
     "statusBarItem.remoteBackground": "#6200EA", // purpled-a700
     // activity bar
     "activityBar.background": "#07070f", // bg
-    "activityBar.foreground": "#9FA8DA", // indigo-200
-    "activityBar.activeBorder": "#6200EA", // purpled-a700
+    "activityBar.foreground": "#8C9EFF", // indigo-a100
+    "activityBar.activeBorder": "#8C9EFF", // indigo-a100
     "activityBarBadge.background": "#6200EA", // purpled-a700
     // side bar
     "sideBar.background": "#07070f", // bg

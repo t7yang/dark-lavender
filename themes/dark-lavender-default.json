@@ -16,7 +16,6 @@
     "dropdown.listBackground": "#151524", // bglight
     // input
     "input.background": "#151524", // bglight
-    "input.placeholderForeground": "#151524", // bglight
     "inputOption.activeBackground": "#07070f00", // bg
     "inputOption.activeBorder": "#B388FF", // purpled-a100
     "inputValidation.errorBackground": "#AD1457", // pink-800

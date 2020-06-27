@@ -4,6 +4,10 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.1.1] - 2020-06-27
+### Changed
+- Lighter inactive tab background and editor group tab background color.
+
 ## [1.1.0] - 2020-06-22
 ### Changed
 - Changed bg and bglite color.

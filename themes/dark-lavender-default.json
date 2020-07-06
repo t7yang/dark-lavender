@@ -5,18 +5,18 @@
   "colors": {
     // base colors
     "focusBorder": "#6200EA", // purpled-a700
-    "foreground": "#E8EAF6", // indigo-50
+    "foreground": "#FAFAFA", // grey-50
     "errorForeground": "#AD1457", // pink-800
     "icon.foreground": "#B388FF", // purpled-a100
     // button
     "button.background": "#6200EA", // purpled-a700
-    "checkbox.background": "#151524", // bglight
+    "checkbox.background": "#080816", // bglight
     // dropdown
-    "dropdown.background": "#151524", // bglight
-    "dropdown.listBackground": "#151524", // bglight
+    "dropdown.background": "#080816", // bglight
+    "dropdown.listBackground": "#080816", // bglight
     // input
-    "input.background": "#151524", // bglight
-    "inputOption.activeBackground": "#07070f00", // bg
+    "input.background": "#080816", // bglight
+    "inputOption.activeBackground": "#01010900", // bg
     "inputOption.activeBorder": "#B388FF", // purpled-a100
     "inputValidation.errorBackground": "#AD1457", // pink-800
     "inputValidation.errorBorder": "#AD1457", // pink-800
@@ -29,20 +29,20 @@
     // progress
     "progressBar.background": "#6200EA", // purpled-a700
     // editor group and tabs
-    "editorGroupHeader.tabsBackground": "#303045", // bglighter
-    "tab.inactiveBackground": "#303045", // bglighter
-    "tab.activeBackground": "#07070f", // bg
-    "tab.activeBorderTop": "#6200EA", // purpled-a700
-    "tab.activeForeground": "#E8EAF6", // indigo-50
-    "tab.inactiveForeground": "#9FA8DA", // indigo-200
+    "editorGroupHeader.tabsBackground": "#010109", // bglighter
+    "tab.inactiveBackground": "#010109", // bglighter
+    "tab.activeBackground": "#010109", // bg
+    "tab.activeBorder": "#6200EA", // purpled-a700
+    "tab.activeForeground": "#FAFAFA", // grey-50
+    "tab.inactiveForeground": "#BDBDBD", // grey-500
     "tab.activeModifiedBorder": "#FF8F00", // amber-800
     // editor
-    "editor.background": "#07070f", // bg
+    "editor.background": "#010109", // bg
     "editorLineNumber.activeForeground": "#B388FF", // purpled-a100
     "editorIndentGuide.background": "#404040",
     "editorIndentGuide.activeBackground": "#707070",
     // editor widgets
-    "editorWidget.background": "#07070f", // bg
+    "editorWidget.background": "#010109", // bg
     "editorWidget.border": "#6200EA", // purpled-a700
     // lists and trees
     "list.dropBackground": "#383B3D",
@@ -51,34 +51,34 @@
     "peekViewEditor.background": "#D1C4E905", // purpled-a100
     "peekViewResult.background": "#D1C4E905", // purpled-a100
     "peekViewEditor.matchHighlightBackground": "#D1C4E930", // purpled-a100
-    "peekViewTitle.background": "#07070f", // bg
+    "peekViewTitle.background": "#010109", // bg
     // panel
     "panelTitle.activeBorder": "#6200EA",
     // status bar
-    "statusBar.background": "#07070f", // bg
+    "statusBar.background": "#010109", // bg
     "statusBar.debuggingBackground": "#BF360C", // oranged-900
-    "statusBar.noFolderBackground": "#07070f", // bg
+    "statusBar.noFolderBackground": "#010109", // bg
     "statusBarItem.prominentBackground": "#6200EA", // purpled-a700
     "statusBarItem.remoteBackground": "#6200EA", // purpled-a700
     // activity bar
-    "activityBar.background": "#07070f", // bg
+    "activityBar.background": "#010109", // bg
     "activityBar.foreground": "#8C9EFF", // indigo-a100
     "activityBar.activeBorder": "#8C9EFF", // indigo-a100
     "activityBarBadge.background": "#6200EA", // purpled-a700
     // side bar
-    "sideBar.background": "#07070f", // bg
+    "sideBar.background": "#010109", // bg
     "sideBarTitle.foreground": "#BBBBBB",
     // title bar
-    "titleBar.activeBackground": "#07070f", // bg
-    "titleBar.inactiveBackground": "#151524", // bglight
+    "titleBar.activeBackground": "#010109", // bg
+    "titleBar.inactiveBackground": "#080816", // bglight
     // menu
-    "menu.background": "#151524", // bglight
+    "menu.background": "#080816", // bglight
     // notification
     "notificationToast.border": "#6200EA", // purpled-a700
     // settings editor
     "settings.modifiedItemIndicator": "#FF8F00", // amber-800
-    "settings.textInputBackground": "#151524", // bglight
-    "settings.numberInputBackground": "#151524", // bglight
+    "settings.textInputBackground": "#080816", // bglight
+    "settings.numberInputBackground": "#080816", // bglight
     // extension
     "extensionButton.prominentBackground": "#6200EA", // purpled-a700
     "extensionButton.prominentHoverBackground": "#7C4DFF" // purpled-a200

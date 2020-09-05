@@ -4,6 +4,14 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.0] - 2020-09-05
+### Added
+- Add black and soft version.
+
+### Changed
+- Update icon and screenshot image.
+- Token of function, method... from green-a200 to teal-a200.
+
 ## [1.1.3] - 2020-07-07
 ### Changed
 - Update bg and bglighter.

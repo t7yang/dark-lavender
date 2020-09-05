@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Dark Lavender",
+  "name": "Dark Lavender - Soft",
   "type": "dark",
   "include": "dark-lavender-token.json",
   "semanticHighlighting": true,
@@ -12,13 +12,13 @@
     "icon.foreground": "#B388FF", // purpled-a100
     // button
     "button.background": "#6200EA", // purpled-a700
-    "checkbox.background": "#17191F", // bg2
+    "checkbox.background": "#23252E", // bg2
     // dropdown
-    "dropdown.background": "#17191F", // bg2
-    "dropdown.listBackground": "#17191F", // bg2
+    "dropdown.background": "#23252E", // bg2
+    "dropdown.listBackground": "#23252E", // bg2
     // input
-    "input.background": "#17191F", // bg2
-    "inputOption.activeBackground": "#07090F00", // bg
+    "input.background": "#23252E", // bg2
+    "inputOption.activeBackground": "#13151E00", // bg
     "inputOption.activeBorder": "#B388FF", // purpled-a100
     "inputValidation.errorBackground": "#AD1457", // pink-800
     "inputValidation.errorBorder": "#AD1457", // pink-800
@@ -31,59 +31,59 @@
     // progress
     "progressBar.background": "#6200EA", // purpled-a700
     // editor group and tabs
-    "editorGroupHeader.tabsBackground": "#07090F", // bg
-    "tab.inactiveBackground": "#07090F", // bg
-    "tab.activeBackground": "#07090F", // bg
+    "editorGroupHeader.tabsBackground": "#13151E", // bg
+    "tab.inactiveBackground": "#13151E", // bg
+    "tab.activeBackground": "#13151E", // bg
     "tab.activeBorder": "#6200EA", // purpled-a700
     "tab.activeForeground": "#FAFAFA", // grey-50
     "tab.inactiveForeground": "#BDBDBD", // grey-500
     "tab.activeModifiedBorder": "#FF8F00", // amber-800
     // editor
-    "editor.background": "#07090F", // bg
+    "editor.background": "#13151E", // bg
     "editorLineNumber.activeForeground": "#B388FF", // purpled-a100
     "editorIndentGuide.background": "#404040",
     "editorIndentGuide.activeBackground": "#707070",
     // editor widgets
-    "editorWidget.background": "#07090F", // bg
+    "editorWidget.background": "#13151E", // bg
     "editorWidget.border": "#6200EA", // purpled-a700
     // lists and trees
-    "list.dropBackground": "#17191F", // bg2
+    "list.dropBackground": "#23252E", // bg2
     "list.activeSelectionBackground": "#311B92", // purper-900
-    "list.hoverBackground": "#17191F", // bg2
-    "list.inactiveSelectionBackground": "#17191F", // bg2
+    "list.hoverBackground": "#23252E", // bg2
+    "list.inactiveSelectionBackground": "#23252E", // bg2
     // peek
     "peekView.border": "#6200EA", // purpled-a700
     "peekViewEditor.background": "#D1C4E905", // purpled-a100
     "peekViewResult.background": "#D1C4E905", // purpled-a100
     "peekViewEditor.matchHighlightBackground": "#D1C4E930", // purpled-a100
-    "peekViewTitle.background": "#07090F", // bg
+    "peekViewTitle.background": "#13151E", // bg
     // panel
     "panelTitle.activeBorder": "#6200EA", // purpled-a700
     // status bar
-    "statusBar.background": "#07090F", // bg
+    "statusBar.background": "#13151E", // bg
     "statusBar.debuggingBackground": "#BF360C", // oranged-900
-    "statusBar.noFolderBackground": "#07090F", // bg
+    "statusBar.noFolderBackground": "#13151E", // bg
     "statusBarItem.prominentBackground": "#6200EA", // purpled-a700
     "statusBarItem.remoteBackground": "#6200EA", // purpled-a700
     // activity bar
-    "activityBar.background": "#07090F", // bg
+    "activityBar.background": "#13151E", // bg
     "activityBar.foreground": "#8C9EFF", // indigo-a100
     "activityBar.activeBorder": "#8C9EFF", // indigo-a100
     "activityBarBadge.background": "#6200EA", // purpled-a700
     // side bar
-    "sideBar.background": "#07090F", // bg
+    "sideBar.background": "#13151E", // bg
     "sideBarTitle.foreground": "#BBBBBB",
     // title bar
-    "titleBar.activeBackground": "#07090F", // bg
-    "titleBar.inactiveBackground": "#17191F", // bg2
+    "titleBar.activeBackground": "#13151E", // bg
+    "titleBar.inactiveBackground": "#23252E", // bg2
     // menu
-    "menu.background": "#17191F", // bg2
+    "menu.background": "#23252E", // bg2
     // notification
     "notificationToast.border": "#6200EA", // purpled-a700
     // settings editor
     "settings.modifiedItemIndicator": "#FF8F00", // amber-800
-    "settings.textInputBackground": "#17191F", // bg2
-    "settings.numberInputBackground": "#17191F", // bg2
+    "settings.textInputBackground": "#23252E", // bg2
+    "settings.numberInputBackground": "#23252E", // bg2
     // extension
     "extensionButton.prominentBackground": "#6200EA", // purpled-a700
     "extensionButton.prominentHoverBackground": "#7C4DFF" // purpled-a200

@@ -9,7 +9,7 @@
   },
   "icon": "images/icon.png",
   "galleryBanner": {
-    "color": "#08121E",
+    "color": "#07090F",
     "theme": "dark"
   },
   "categories": [
@@ -25,7 +25,17 @@
       {
         "label": "Dark Lavender",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-lavender-color-theme.json"
+        "path": "./themes/dark-lavender-default.json"
+      },
+      {
+        "label": "Dark Lavender - Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-lavender-black.json"
+      },
+      {
+        "label": "Dark Lavender - Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-lavender-soft.json"
       }
     ]
   },

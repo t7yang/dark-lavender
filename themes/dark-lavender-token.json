@@ -2,8 +2,6 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Dark Lavender",
   "type": "dark",
-  "include": "dark-lavender-default.json",
-  "semanticHighlighting": true,
   "tokenColors": [
     {
       "name": "Text",
@@ -136,7 +134,7 @@
       "name": "Units",
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#69F0AE" // green-a200
+        "foreground": "#64FFDA" // teal-a200
       }
     },
     {
@@ -150,21 +148,21 @@
         "variable.function"
       ],
       "settings": {
-        "foreground": "#69F0AE" // green-a200
+        "foreground": "#64FFDA" // teal-a200
       }
     },
     {
       "name": "Support",
       "scope": "support.function",
       "settings": {
-        "foreground": "#69F0AE" // green-a200
+        "foreground": "#64FFDA" // teal-a200
       }
     },
     {
       "name": "Methods",
       "scope": "keyword.other.special-method",
       "settings": {
-        "foreground": "#69F0AE" // green-a200
+        "foreground": "#64FFDA" // teal-a200
       }
     },
     {
@@ -327,14 +325,14 @@
       "name": "Selector",
       "scope": "meta.selector",
       "settings": {
-        "foreground": "#9C27B0" // purple 500
+        "foreground": "#9C27B0" // purple-500
       }
     },
     {
       "name": "Values",
       "scope": "none",
       "settings": {
-        "foreground": "#E91E63" // pink 500
+        "foreground": "#E91E63" // pink-500
       }
     },
     {
@@ -347,7 +345,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#69F0AE" // green A200
+        "foreground": "#64FFDA" // teal-a200
       }
     },
     {
@@ -355,7 +353,7 @@
       "scope": ["markup.bold", "punctuation.definition.bold"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#F44336" // red 500
+        "foreground": "#F44336" // red-500
       }
     },
     {
@@ -369,28 +367,28 @@
       "name": "Code",
       "scope": "markup.raw.inline",
       "settings": {
-        "foreground": "#69F0AE" // green A200
+        "foreground": "#64FFDA" // teal-a200
       }
     },
     {
       "name": "Quotes",
       "scope": "markup.quote",
       "settings": {
-        "foreground": "#B388FF", // purpled-a100
+        "foreground": "#B388FF" // purpled-a100
       }
     },
     {
       "name": "Inserted",
       "scope": "markup.inserted",
       "settings": {
-        "foreground": "#4CAF50" // green 500
+        "foreground": "#4CAF50" // green-500
       }
     },
     {
       "name": "Deleted",
       "scope": "markup.deleted",
       "settings": {
-        "foreground": "#F44336" // red 500
+        "foreground": "#F44336" // red-500
       }
     },
     {
@@ -402,20 +400,16 @@
     },
     {
       "name": "Markup Code",
-      "scope": [
-        "markup.inline.raw",
-        "markup.fenced_code.block",
-        "markup.raw.block"
-      ],
+      "scope": ["markup.inline.raw", "markup.fenced_code.block", "markup.raw.block"],
       "settings": {
-        "foreground": "#FF9800" // orange 500
+        "foreground": "#FF9800" // orange-500
       }
     },
     {
       "name": "Markup Link Image",
       "scope": "markup.underline.link.image",
       "settings": {
-        "foreground": "#4CAF50" // green 500
+        "foreground": "#4CAF50" // green-500
       }
     },
     {
@@ -429,7 +423,7 @@
       "name": "Lists",
       "scope": "beginning.punctuation.definition.list",
       "settings": {
-        "foreground": "#FF9800" // orange 500
+        "foreground": "#FF9800" // orange-500
       }
     },
     {
@@ -450,21 +444,21 @@
       "name": "Illegal",
       "scope": "invalid",
       "settings": {
-        "foreground": "#C62828" // red 800
+        "foreground": "#C62828" // red-800
       }
     },
     {
       "name": "Css ID",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "foreground": "#F44336" // red 500
+        "foreground": "#F44336" // red-500
       }
     },
     {
       "name": "BASH: Command Substitution",
       "scope": "string.interpolated.dollar.shell",
       "settings": {
-        "foreground": "#F44336" // red 500
+        "foreground": "#F44336" // red-500
       }
     },
     {
@@ -481,14 +475,14 @@
         "punctuation.definition.string.end.shell"
       ],
       "settings": {
-        "foreground": "#9C27B0" // purple 500
+        "foreground": "#9C27B0" // purple-500
       }
     },
     {
       "name": "CSV Rainbow 4",
       "scope": "comment.rainbow4",
       "settings": {
-        "foreground": "#FF9800" // orange 500
+        "foreground": "#FF9800" // orange-500
       }
     },
     {

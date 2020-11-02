@@ -39,6 +39,7 @@
     "tab.inactiveForeground": "#BDBDBD", // grey-500
     "tab.activeModifiedBorder": "#FF8F00", // amber-800
     // editor
+    "editor.foreground": "#EEEEEE", // grey-300
     "editor.background": "#07090F", // bg
     "editorLineNumber.activeForeground": "#B388FF", // purpled-a100
     "editorIndentGuide.background": "#404040",

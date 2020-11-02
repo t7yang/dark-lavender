@@ -31,6 +31,7 @@
     // progress
     "progressBar.background": "#6200EA", // purpled-a700
     // editor group and tabs
+    "editor.foreground": "#EEEEEE", // grey-300
     "editorGroupHeader.tabsBackground": "#13151E", // bg
     "tab.inactiveBackground": "#13151E", // bg
     "tab.activeBackground": "#13151E", // bg

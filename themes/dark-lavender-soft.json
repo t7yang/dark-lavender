@@ -72,7 +72,6 @@
     "activityBarBadge.background": "#6200EA", // purpled-a700
     // side bar
     "sideBar.background": "#13151E", // bg
-    "sideBarTitle.foreground": "#BBBBBB",
     // title bar
     "titleBar.activeBackground": "#13151E", // bg
     "titleBar.inactiveBackground": "#23252E", // bg2

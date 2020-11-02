@@ -2,7 +2,7 @@
   "name": "dark-lavender",
   "displayName": "Dark Lavender",
   "description": "A smooth and nice dark theme for VSCode with material design colors.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "publisher": "t7yang",
   "engines": {
     "vscode": "^1.43.0"

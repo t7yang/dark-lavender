@@ -4,6 +4,10 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.2] = 2020-11-03
+### Changed
+- Decrease overall foreground from grey-50 to grey-300.
+
 ## [2.0.1] - 2020-11-02
 ### Removed
 - Default sidebar foreground.

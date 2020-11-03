@@ -7,7 +7,7 @@
   "colors": {
     // base colors
     "focusBorder": "#6200EA", // purpled-a700
-    "foreground": "#FAFAFA", // grey-50
+    "foreground": "#EEEEEE", // grey-300
     "errorForeground": "#AD1457", // pink-800
     "icon.foreground": "#B388FF", // purpled-a100
     // button

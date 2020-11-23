@@ -18,6 +18,7 @@
     "dropdown.listBackground": "#263238", // grey-900
     // input
     "input.background": "#263238", // grey-900
+    "inputOption.activeBackground": "#6200EA", // purpled-a700
     "inputValidation.errorBackground": "#AD1457", // pink-800
     "inputValidation.errorBorder": "#AD1457", // pink-800
     "inputValidation.infoBackground": "#1565C0", // blue-800

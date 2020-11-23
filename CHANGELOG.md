@@ -4,7 +4,21 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [2.0.2] = 2020-11-03
+## [2.1.0] - 2020-11-23
+
+### Fixed
+
+- Change the input elements background color to grey-900 to prevent same color with overall background color.
+
+### Changed
+
+- `inputOption.activeBackground` from transparency to purpled-700.
+
+### Removed
+
+- `inputOption.activeBorder`.
+
+## [2.0.2] - 2020-11-03
 
 ### Changed
 

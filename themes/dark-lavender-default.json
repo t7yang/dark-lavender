@@ -12,14 +12,12 @@
     "icon.foreground": "#B388FF", // purpled-a100
     // button
     "button.background": "#6200EA", // purpled-a700
-    "checkbox.background": "#17191F", // bg2
+    "checkbox.background": "#263238", // grey-900
     // dropdown
-    "dropdown.background": "#17191F", // bg2
-    "dropdown.listBackground": "#17191F", // bg2
+    "dropdown.background": "#263238", // grey-900
+    "dropdown.listBackground": "#263238", // grey-900
     // input
-    "input.background": "#17191F", // bg2
-    "inputOption.activeBackground": "#07090F00", // bg
-    "inputOption.activeBorder": "#B388FF", // purpled-a100
+    "input.background": "#263238", // grey-900
     "inputValidation.errorBackground": "#AD1457", // pink-800
     "inputValidation.errorBorder": "#AD1457", // pink-800
     "inputValidation.infoBackground": "#1565C0", // blue-800
@@ -80,12 +78,10 @@
     "menu.background": "#17191F", // bg2
     // notification
     "notificationToast.border": "#6200EA", // purpled-a700
-    // settings editor
-    "settings.modifiedItemIndicator": "#FF8F00", // amber-800
-    "settings.textInputBackground": "#17191F", // bg2
-    "settings.numberInputBackground": "#17191F", // bg2
     // extension
     "extensionButton.prominentBackground": "#6200EA", // purpled-a700
-    "extensionButton.prominentHoverBackground": "#7C4DFF" // purpled-a200
+    "extensionButton.prominentHoverBackground": "#7C4DFF", // purpled-a200
+    // settings editor
+    "settings.modifiedItemIndicator": "#FF8F00" // amber-800
   }
 }

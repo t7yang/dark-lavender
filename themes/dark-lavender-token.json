@@ -98,7 +98,7 @@
         "punctuation.decorator"
       ],
       "settings": {
-        "foreground": "#82B1FF" // blue-a100
+        "foreground": "#8C9EFF" // indigo-a100
       }
     },
     {
@@ -218,7 +218,7 @@
       "name": "Boolean",
       "scope": ["constant.language.boolean"],
       "settings": {
-        "foreground": "#BBDEFB" // blue-100
+        "foreground": "#C5CAE9" // indigo-100
       }
     },
     {
@@ -287,7 +287,7 @@
         "variable.graphql"
       ],
       "settings": {
-        "foreground": "#FFAB91" // oranged-200
+        "foreground": "#81D4FA" // bluel-200
       }
     },
     {

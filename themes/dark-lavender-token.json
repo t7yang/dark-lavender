@@ -93,7 +93,9 @@
         "punctuation.parenthesis.begin",
         "punctuation.parenthesis.end",
         "punctuation.operation.graphql",
-        "punctuation.colon.graphql"
+        "punctuation.colon.graphql",
+        "meta.decorator",
+        "punctuation.decorator"
       ],
       "settings": {
         "foreground": "#82B1FF" // blue-a100

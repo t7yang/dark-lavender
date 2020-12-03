@@ -4,6 +4,20 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.2.0] - 2020-12-03
+
+### Fixed
+
+- Add missing punctuation for decorator.
+- Add missing scope of boolean.
+- Add `source` to variable scope.
+
+### Changed
+
+- Remove semantic highlighting true (vscode currently not support yet).
+- Color of boolean and punctuation from blue to indigo.
+- Color of object property from orange to blue light.
+
 ## [2.1.0] - 2020-11-23
 
 ### Fixed

@@ -225,6 +225,7 @@
       "name": "Variables",
       "scope": [
         "variable",
+        "source",
         "source.elixir.embedded.source",
         "string source.groovy",
         "string meta.embedded.line.ruby"

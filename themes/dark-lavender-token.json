@@ -208,15 +208,8 @@
       }
     },
     {
-      "name": "Integers",
+      "name": "Integers, Float",
       "scope": ["constant.numeric", "variable.other.anonymous.elixir"],
-      "settings": {
-        "foreground": "#ffcdd2" // red 100
-      }
-    },
-    {
-      "name": "Floats",
-      "scope": "none",
       "settings": {
         "foreground": "#ffcdd2" // red 100
       }

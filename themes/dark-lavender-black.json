@@ -3,7 +3,6 @@
   "name": "Dark Lavender - Black",
   "type": "dark",
   "include": "dark-lavender-token.json",
-  "semanticHighlighting": true,
   "colors": {
     // base colors
     "focusBorder": "#6200EA", // purpled-a700

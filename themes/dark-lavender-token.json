@@ -223,7 +223,7 @@
     },
     {
       "name": "Boolean",
-      "scope": "none",
+      "scope": ["constant.language.boolean"],
       "settings": {
         "foreground": "#BBDEFB" // blue-100
       }

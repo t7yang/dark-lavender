@@ -40,13 +40,6 @@
       }
     },
     {
-      "name": "Delimiters",
-      "scope": "none",
-      "settings": {
-        "foreground": "#90A4AE" // bluegrey-300
-      }
-    },
-    {
       "name": "Punctuation",
       "scope": [
         "punctuation.comma.graphql",
@@ -323,13 +316,6 @@
       "scope": "meta.selector",
       "settings": {
         "foreground": "#9C27B0" // purple-500
-      }
-    },
-    {
-      "name": "Values",
-      "scope": "none",
-      "settings": {
-        "foreground": "#E91E63" // pink-500
       }
     },
     {

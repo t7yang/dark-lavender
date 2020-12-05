@@ -6,7 +6,7 @@
   "colors": {
     // base colors
     "focusBorder": "#6200EA", // purpled-a700
-    "foreground": "#EEEEEE", // grey-300
+    "foreground": "#CFD8DC", // bluegrey-100
     "errorForeground": "#AD1457", // pink-800
     "icon.foreground": "#B388FF", // purpled-a100
     // button
@@ -29,7 +29,7 @@
     // progress
     "progressBar.background": "#6200EA", // purpled-a700
     // editor group and tabs
-    "editor.foreground": "#EEEEEE", // grey-300
+    "editor.foreground": "#CFD8DC", // bluegrey-100
     "editorGroupHeader.tabsBackground": "#13151E", // bg
     "tab.inactiveBackground": "#13151E", // bg
     "tab.activeBackground": "#13151E", // bg

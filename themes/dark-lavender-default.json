@@ -6,7 +6,7 @@
   "colors": {
     // base colors
     "focusBorder": "#6200EA", // purpled-a700
-    "foreground": "#EEEEEE", // grey-300
+    "foreground": "#CFD8DC", // bluegrey-100
     "errorForeground": "#AD1457", // pink-800
     "icon.foreground": "#B388FF", // purpled-a100
     // button
@@ -37,7 +37,7 @@
     "tab.inactiveForeground": "#BDBDBD", // grey-500
     "tab.activeModifiedBorder": "#FF8F00", // amber-800
     // editor
-    "editor.foreground": "#EEEEEE", // grey-300
+    "editor.foreground": "#CFD8DC", // bluegrey-100
     "editor.background": "#07090F", // bg
     "editorLineNumber.activeForeground": "#B388FF", // purpled-a100
     "editorIndentGuide.background": "#404040",

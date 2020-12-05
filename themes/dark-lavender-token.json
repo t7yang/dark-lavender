@@ -7,7 +7,7 @@
       "name": "Text",
       "scope": "comment.unused.elixir",
       "settings": {
-        "foreground": "#90A4AE" // bluegrey-300
+        "foreground": "#CFD8DC" // bluegrey-100
       }
     },
     {
@@ -204,7 +204,7 @@
         "storage.type.string"
       ],
       "settings": {
-        "foreground": "#B2EBF2" // cyan-100
+        "foreground": "#CFD8DC" // bluegrey-100
       }
     },
     {

@@ -21,7 +21,7 @@
         "comment.block"
       ],
       "settings": {
-        "foreground": "#757575" // grey 600
+        "foreground": "#607D8B" // bluegrey-500
       }
     },
     {
@@ -36,7 +36,7 @@
         "meta.other.type.phpdoc support class"
       ],
       "settings": {
-        "foreground": "#546E7A" // bluegrey-600
+        "foreground": "#607D8B" // bluegrey-500
       }
     },
     {

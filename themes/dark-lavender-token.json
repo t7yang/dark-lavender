@@ -204,7 +204,7 @@
       "name": "Integers, Float",
       "scope": ["constant.numeric", "variable.other.anonymous.elixir"],
       "settings": {
-        "foreground": "#ffcdd2" // red 100
+        "foreground": "#F8BBD0" // pink-100
       }
     },
     {

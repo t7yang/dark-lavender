@@ -211,7 +211,7 @@
       "name": "Boolean",
       "scope": ["constant.language.boolean"],
       "settings": {
-        "foreground": "#C5CAE9" // indigo-100
+        "foreground": "#F0F4C3" // lime-100
       }
     },
     {

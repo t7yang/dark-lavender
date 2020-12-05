@@ -4,6 +4,15 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.2.1] - 2020-12-06
+
+### Changed
+
+- Unified all string and text to bluegrey-100.
+- Unified all comment to bluegrey-500.
+- number from red-100 to pink-100.
+- boolean from indigo-100 to lime-100.
+
 ## [2.2.0] - 2020-12-03
 
 ### Fixed

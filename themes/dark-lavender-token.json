@@ -36,7 +36,7 @@
         "support.function.interpolation.sass"
       ],
       "settings": {
-        "foreground": "#8C9EFF", // indigo-a100
+        "foreground": "#C5CAE9", // indigo-100
         "fontStyle": ""
       }
     },
@@ -75,7 +75,8 @@
       "name": "Units",
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#64FFDA" // teal-a200
+        "foreground": "#64FFDA", // teal-a200
+        "fontStyle": ""
       }
     },
     {
@@ -122,14 +123,14 @@
         "variable.other.constant.elixir"
       ],
       "settings": {
-        "foreground": "#FFFF8D" // yellow-a100
+        "foreground": "#FFF176" // yellow-300
       }
     },
     {
       "name": "Built-In Types",
       "scope": ["support.type"],
       "settings": {
-        "foreground": "#FFFF8D" // yellow-a100
+        "foreground": "#FFF176" // yellow-300
       }
     },
     {
@@ -230,7 +231,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#FFAB91" // oranged-200
+        "foreground": "#FF8A65" // oranged-300
       }
     },
     {
@@ -390,14 +391,14 @@
       "name": "Illegal",
       "scope": ["invalid"],
       "settings": {
-        "foreground": "#C62828" // red-800
+        "foreground": "#AD1457" // pink-800
       }
     },
     {
       "name": "BASH: Command Substitution",
       "scope": ["string.interpolated.dollar.shell"],
       "settings": {
-        "foreground": "#F44336" // red-500
+        "foreground": "#E91E63" // pink-500
       }
     },
     {

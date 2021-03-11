@@ -184,7 +184,7 @@
         "support.function.variable.quoted.single.elixir"
       ],
       "settings": {
-        "foreground": "#CFD8DC" // bluegrey-100
+        "foreground": "#B2EBF2" // cyan-100
       }
     },
     {

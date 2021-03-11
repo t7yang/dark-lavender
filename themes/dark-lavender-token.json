@@ -21,7 +21,6 @@
       "name": "Punctuation",
       "scope": [
         "constant.name.attribute.tag.pug",
-        "keyword.control.ternary",
         "meta.brace.curly",
         "meta.brace.round",
         "meta.brace.square",
@@ -37,6 +36,7 @@
         "punctuation.definition.entity",
         "punctuation.definition.parameters",
         "punctuation.definition.function",
+        "punctuation.definition.string",
         "punctuation.definition.string.begin.markdown",
         "punctuation.definition.string.end.markdown",
         "punctuation.definition.tag",
@@ -70,12 +70,13 @@
         "support.function.interpolation.sass"
       ],
       "settings": {
-        "foreground": "#8C9EFF" // indigo-a100
+        "foreground": "#8C9EFF", // indigo-a100
+        "fontStyle": ""
       }
     },
     {
       "name": "Operators",
-      "scope": ["keyword.operator"],
+      "scope": ["keyword.operator", "keyword.control.ternary", "keyword.control.anchor.regexp"],
       "settings": {
         "foreground": "#B388FF", // purpled-a100
         "fontStyle": ""
@@ -85,8 +86,16 @@
       "name": "Keywords",
       "scope": [
         "keyword",
+        "keyword.operator.alignas",
+        "keyword.operator.alignof",
+        "keyword.operator.cast",
         "keyword.operator.expression",
+        "keyword.operator.instanceof",
+        "keyword.operator.logical.python",
         "keyword.operator.new",
+        "keyword.operator.sizeof",
+        "keyword.operator.typeid",
+        "keyword.operator.wordlike",
         "keyword.other.special-method.elixir",
         "meta.control.flow",
         "variable.language"
@@ -176,7 +185,6 @@
     {
       "name": "Strings, Inherited Class",
       "scope": [
-        "punctuation.definition.string",
         "storage.type.string",
         "string",
         "string.quoted.double.shell",

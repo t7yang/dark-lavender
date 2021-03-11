@@ -39,6 +39,7 @@
         "punctuation.definition.function",
         "punctuation.definition.string.begin.markdown",
         "punctuation.definition.string.end.markdown",
+        "punctuation.definition.tag",
         "punctuation.definition.variable",
         "punctuation.delimiter.comma",
         "punctuation.delimiter.object.comma",
@@ -271,7 +272,7 @@
     },
     {
       "name": "XML/HTML Tags",
-      "scope": ["entity.name.tag", "punctuation.definition.tag"],
+      "scope": ["entity.name.tag"],
       "settings": {
         "foreground": "#B388FF" // purpled-a100
       }

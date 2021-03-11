@@ -12,29 +12,7 @@
     },
     {
       "name": "Comments",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment",
-        "comment.block.documentation punctuation.definition",
-        "string.comment",
-        "comment.block.documentation",
-        "comment.block"
-      ],
-      "settings": {
-        "foreground": "#607D8B" // bluegrey-500
-      }
-    },
-    {
-      "name": "Doc Comment Keywords",
-      "scope": [
-        "comment.block.documentation variable",
-        "keyword.other.documentation",
-        "storage.type.class.jsdoc",
-        "comment.block variable.parameter",
-        "keyword.other.phpdoc",
-        "comment.block.documentation entity.name.type",
-        "meta.other.type.phpdoc support class"
-      ],
+      "scope": ["comment", "punctuation.definition.comment", "string.comment"],
       "settings": {
         "foreground": "#607D8B" // bluegrey-500
       }

@@ -21,9 +21,7 @@
       "name": "Punctuation",
       "scope": [
         "constant.name.attribute.tag.pug",
-        "meta.brace.curly",
-        "meta.brace.round",
-        "meta.brace.square",
+        "meta.brace",
         "meta.decorator",
         "punctuation.accessor",
         "punctuation.brace",
@@ -32,40 +30,15 @@
         "punctuation.comma.graphql",
         "punctuation.decorator",
         "punctuation.definition",
-        "punctuation.definition.array",
-        "punctuation.definition.entity",
-        "punctuation.definition.parameters",
-        "punctuation.definition.function",
-        "punctuation.definition.string",
-        "punctuation.definition.string.begin.markdown",
-        "punctuation.definition.string.end.markdown",
-        "punctuation.definition.tag",
-        "punctuation.definition.variable",
         "punctuation.delimiter.comma",
         "punctuation.delimiter.object.comma",
         "punctuation.parenthesis.begin",
         "punctuation.parenthesis.end",
         "punctuation.operation.graphql",
         "punctuation.other.comma",
-        "punctuation.section.embedded",
         "punctuation.separator",
-        "punctuation.separator.method",
-        "punctuation.terminator.statement",
-        "punctuation.separator.key-value",
-        "punctuation.separator.dictionary",
-        "punctuation.terminator",
-        "punctuation.separator.comma",
-        "punctuation.separator.array",
         "punctuation.section",
-        "punctuation.section.property-list.begin.bracket.curly",
-        "punctuation.section.property-list.end.bracket.curly",
-        "punctuation.separator.statement",
-        "punctuation.section.array.elixir",
-        "punctuation.separator.object.elixir",
-        "punctuation.section.embedded.elixir",
-        "punctuation.section.function.elixir",
-        "punctuation.section.scope.elixir",
-        "punctuation.separator.parameter",
+        "punctuation.terminator",
         "string.interpolated.pug",
         "support.function.interpolation.sass"
       ],
@@ -106,18 +79,18 @@
       }
     },
     {
+      "name": "Units",
+      "scope": "keyword.other.unit",
+      "settings": {
+        "foreground": "#64FFDA" // teal-a200
+      }
+    },
+    {
       "name": "Storage, Declaration Keywords",
       "scope": ["storage", "constant.language"],
       "settings": {
         "foreground": "#FF80AB", // pink-a100
         "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Units",
-      "scope": "keyword.other.unit",
-      "settings": {
-        "foreground": "#64FFDA" // teal-a200
       }
     },
     {
@@ -127,6 +100,7 @@
         "meta.function-call",
         "meta.method-call",
         "meta.require",
+        "punctuation.definition.function",
         "support.function",
         "support.function.any-method",
         "variable.function"
@@ -147,14 +121,11 @@
       "scope": [
         "entity.name.class",
         "entity.name.type",
-        "entity.name.type.class",
         "entity.other.inherited-class",
         "meta.class.inheritance",
         "meta.class.instance",
         "storage.type.haskell",
         "support.class",
-        "support.type.enum.graphql",
-        "support.type.graphql",
         "variable.other.constant.elixir"
       ],
       "settings": {
@@ -162,8 +133,8 @@
       }
     },
     {
-      "name": "Type Primitive",
-      "scope": ["support.type.primitive", "support.type.builtin"],
+      "name": "Built-In Types",
+      "scope": ["support.type"],
       "settings": {
         "foreground": "#FFFF8D" // yellow-a100
       }
@@ -232,10 +203,22 @@
       }
     },
     {
+      "name": "Parameters",
+      "scope": [
+        "meta.function-call.arguments",
+        "parameter.variable.function.elixir",
+        "variable.other.block.ruby",
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#FFAB91" // oranged-200
+      }
+    },
+    {
       "name": "Variables",
       "scope": [
+        "punctuation.definition.variable",
         "source",
-        "source.elixir.embedded.source",
         "string meta.embedded.line.ruby",
         "string source.groovy",
         "variable"
@@ -248,30 +231,10 @@
       "name": "Constants",
       "scope": [
         "constant",
-        "constant.language.symbol",
-        "constant.other.symbol",
         "punctuation.definition.constant",
         "support.constant",
         "support.variable.magic.python",
         "variable.other.constant"
-      ],
-      "settings": {
-        "foreground": "#FFAB91" // oranged-200
-      }
-    },
-    {
-      "name": "Function Parameters",
-      "scope": ["meta.function-call.arguments"],
-      "settings": {
-        "foreground": "#FFAB91" // oranged-200
-      }
-    },
-    {
-      "name": "Variable Parameter",
-      "scope": [
-        "parameter.variable.function.elixir",
-        "variable.other.block.ruby",
-        "variable.parameter"
       ],
       "settings": {
         "foreground": "#FFAB91" // oranged-200
@@ -323,12 +286,7 @@
     },
     {
       "name": "Headings",
-      "scope": [
-        "entity.name.section",
-        "markup.heading",
-        "markup.heading.setext",
-        "punctuation.definition.heading"
-      ],
+      "scope": ["entity.name.section", "markup.heading", "punctuation.definition.heading"],
       "settings": {
         "fontStyle": "",
         "foreground": "#64FFDA" // teal-a200

@@ -188,17 +188,39 @@
       }
     },
     {
-      "name": "Regular Expressions",
-      "scope": ["string.regexp"],
+      "name": "Regular Expression Groups",
+      "scope": [
+        "punctuation.definition.group.regexp",
+        "punctuation.definition.group.assertion.regexp",
+        "punctuation.definition.character-class.regexp",
+        "punctuation.character.set.begin.regexp",
+        "punctuation.character.set.end.regexp",
+        "keyword.operator.negation.regexp",
+        "support.other.parenthesis.regexp"
+      ],
       "settings": {
-        "foreground": "#B9F6CA" // green-a100"
+        "foreground": "#FF4081"
+      }
+    },
+    {
+      "name": "Regular Expression Quantifier",
+      "scope": "keyword.operator.quantifier.regexp",
+      "settings": {
+        "foreground": "#FFAB40" // orange-a200
       }
     },
     {
       "name": "Escape Characters",
-      "scope": ["constant.character.escape", "constant.other.character-class"],
+      "scope": [
+        "constant.character.character-class.regexp",
+        "constant.character.escape",
+        "constant.character.set.regexp",
+        "constant.other.character-class",
+        "constant.other.character-class.regexp",
+        "constant.other.character-class.set.regexp"
+      ],
       "settings": {
-        "foreground": "#FF5722" // oranged-500
+        "foreground": "#EEFF41" // lime-a200
       }
     },
     {

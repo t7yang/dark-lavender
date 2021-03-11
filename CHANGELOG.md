@@ -4,6 +4,30 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [3.0.0] - 2021-03-11
+
+### Added
+
+- Support JSON hierarchy.
+- Support groups and quantifier for RegExp, more RegExp class.
+- Support more non-punctuation keywords.
+
+### Changed
+
+- Keywords and Types in comment docs with color.
+- Tags bracket as Punctuation.
+- String color back to cyan-100.
+- Object Properties: bluel-200 => blue-200.
+- Move `ternary` from punctuation to operator.
+- Move `punctuation.defination.string` from String to Punctuation (PHP variable).
+- Add RegExp's keyword to operator.
+- Improve overall markup style including change colors and fixed wrong scope name.
+- Punctuation: indigo-a100 => indigo-100
+- Units: drop italic
+- Classed and Types: yellow-a100 => yellow-300
+- Constants: oranged-200 => oranged-300
+- Others
+
 ## [2.2.1] - 2020-12-06
 
 ### Changed

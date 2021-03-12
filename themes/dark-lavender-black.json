@@ -56,6 +56,15 @@
     "editorLineNumber.activeForeground": "#D500F9", // purple-a400
     "editorIndentGuide.background": "#37474F", // blue-gray-800
     "editorIndentGuide.activeBackground": "#78909C", // blue-gray-400
+    "editorOverviewRuler.modifiedForeground": "#1A237E", // indigo-900
+    "editorOverviewRuler.addedForeground": "#004D40", // teal-900
+    "editorOverviewRuler.deletedForeground": "#880E4F", // pink-900
+    "editorOverviewRuler.errorForeground": "#b71c1c", // red-900
+    "editorOverviewRuler.warningForeground": "#F57F17", // yellow-900
+    "editorOverviewRuler.infoForeground": "#0D47A1", // blue-900
+    "editorGutter.modifiedBackground": "#1A237E", // indigo-900
+    "editorGutter.addedBackground": "#004D40", // teal-900
+    "editorGutter.deletedBackground": "#880E4F", // pink-900
     /* Diff editor colors */
     /* Editor widget colors */
     "editorWidget.background": "#010109", // bg

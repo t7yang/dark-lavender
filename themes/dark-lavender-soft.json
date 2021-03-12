@@ -1,87 +1,91 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Dark Lavender - Soft",
+  "name": "Dark Lavender",
   "type": "dark",
   "include": "dark-lavender-token.json",
   "colors": {
-    // base colors
-    "focusBorder": "#6200EA", // purpled-a700
-    "foreground": "#CFD8DC", // bluegrey-100
+    /* Base colors */
+    "focusBorder": "#6200EA", // purple-deep-a700
+    "foreground": "#CFD8DC", // blue-gray-100
     "errorForeground": "#AD1457", // pink-800
-    "icon.foreground": "#B388FF", // purpled-a100
-    // button
-    "button.background": "#6200EA", // purpled-a700
-    "checkbox.background": "#263238", // grey-900
-    // dropdown
-    "dropdown.background": "#263238", // grey-900
-    "dropdown.listBackground": "#263238", // grey-900
-    // input
-    "input.background": "#263238", // grey-900
-    "inputOption.activeBackground": "#6200EA", // purpled-a700
+    "icon.foreground": "#B388FF", // purple-deep-a100
+    /* Text colors */
+    /* Button control */
+    "button.background": "#6200EA", // purple-deep-a700
+    "checkbox.background": "#263238", // gray-900
+    /* Dropdown control */
+    "dropdown.background": "#263238", // gray-900
+    "dropdown.listBackground": "#263238", // gray-900
+    /* Input control */
+    "input.background": "#263238", // gray-900
+    "inputOption.activeBackground": "#6200EA", // purple-deep-a700
     "inputValidation.errorBackground": "#AD1457", // pink-800
     "inputValidation.errorBorder": "#AD1457", // pink-800
     "inputValidation.infoBackground": "#1565C0", // blue-800
     "inputValidation.infoBorder": "#1565C0", // blue-800
     "inputValidation.warningBackground": "#FF8F00", // amber-800
     "inputValidation.warningBorder": "#FF8F00", // amber-800
-    // badge
-    "badge.background": "#6200EA", // purpled-a700
-    // progress
-    "progressBar.background": "#6200EA", // purpled-a700
-    // editor group and tabs
-    "editor.foreground": "#CFD8DC", // bluegrey-100
-    "editorGroupHeader.tabsBackground": "#13151E", // bg
-    "tab.inactiveBackground": "#13151E", // bg
-    "tab.activeBackground": "#13151E", // bg
-    "tab.activeBorder": "#6200EA", // purpled-a700
-    "tab.activeForeground": "#FAFAFA", // grey-50
-    "tab.inactiveForeground": "#BDBDBD", // grey-500
-    "tab.activeModifiedBorder": "#FF8F00", // amber-800
-    // editor
-    "editor.background": "#13151E", // bg
-    "editorLineNumber.activeForeground": "#B388FF", // purpled-a100
-    "editorIndentGuide.background": "#404040",
-    "editorIndentGuide.activeBackground": "#707070",
-    // editor widgets
-    "editorWidget.background": "#13151E", // bg
-    "editorWidget.border": "#6200EA", // purpled-a700
-    // lists and trees
+    /* Badge */
+    "badge.background": "#6200EA", // purple-deep-a700
+    /* Progress bar */
+    "progressBar.background": "#6200EA", // purple-deep-a700
+    /* Lists and trees */
     "list.dropBackground": "#23252E", // bg2
     "list.activeSelectionBackground": "#311B92", // purper-900
     "list.hoverBackground": "#23252E", // bg2
     "list.inactiveSelectionBackground": "#23252E", // bg2
-    // peek
-    "peekView.border": "#6200EA", // purpled-a700
-    "peekViewEditor.background": "#D1C4E905", // purpled-a100
-    "peekViewResult.background": "#D1C4E905", // purpled-a100
-    "peekViewEditor.matchHighlightBackground": "#D1C4E930", // purpled-a100
-    "peekViewTitle.background": "#13151E", // bg
-    // panel
-    "panelTitle.activeBorder": "#6200EA", // purpled-a700
-    // status bar
-    "statusBar.background": "#13151E", // bg
-    "statusBar.debuggingBackground": "#BF360C", // oranged-900
-    "statusBar.noFolderBackground": "#13151E", // bg
-    "statusBarItem.prominentBackground": "#6200EA", // purpled-a700
-    "statusBarItem.remoteBackground": "#6200EA", // purpled-a700
-    // activity bar
+    /* Activity Bar */
     "activityBar.background": "#13151E", // bg
     "activityBar.foreground": "#8C9EFF", // indigo-a100
     "activityBar.activeBorder": "#8C9EFF", // indigo-a100
-    "activityBarBadge.background": "#6200EA", // purpled-a700
-    // side bar
+    "activityBarBadge.background": "#6200EA", // purple-deep-a700
+    /* Side Bar */
     "sideBar.background": "#13151E", // bg
-    // title bar
+    /* Editor Groups & Tabs */
+    "editorGroupHeader.tabsBackground": "#13151E", // bg
+    "tab.inactiveBackground": "#13151E", // bg
+    "tab.activeBackground": "#13151E", // bg
+    "tab.activeBorder": "#6200EA", // purple-deep-a700
+    "tab.activeForeground": "#FAFAFA", // gray-50
+    "tab.inactiveForeground": "#BDBDBD", // gray-500
+    "tab.activeModifiedBorder": "#FF8F00", // amber-800
+    /* Editor colors */
+    "editor.foreground": "#CFD8DC", // blue-gray-100
+    "editor.background": "#13151E", // bg
+    "editorLineNumber.activeForeground": "#B388FF", // purple-deep-a100
+    "editorIndentGuide.background": "#404040",
+    "editorIndentGuide.activeBackground": "#707070",
+    /* Diff editor colors */
+    /* Editor widget colors */
+    "editorWidget.background": "#13151E", // bg
+    "editorWidget.border": "#6200EA", // purple-deep-a700
+    /* Peek view colors */
+    "peekView.border": "#6200EA", // purple-deep-a700
+    "peekViewEditor.background": "#D1C4E905", // purple-deep-a100
+    "peekViewResult.background": "#D1C4E905", // purple-deep-a100
+    "peekViewEditor.matchHighlightBackground": "#D1C4E930", // purple-deep-a100
+    "peekViewTitle.background": "#13151E", // bg
+    /* Merge conflicts colors */
+    /* Panel colors */
+    "panelTitle.activeBorder": "#6200EA", // purple-deep-a700
+    /* Status Bar colors */
+    "statusBar.background": "#13151E", // bg
+    "statusBar.debuggingBackground": "#BF360C", // oranged-900
+    "statusBar.noFolderBackground": "#13151E", // bg
+    "statusBarItem.prominentBackground": "#6200EA", // purple-deep-a700
+    "statusBarItem.remoteBackground": "#6200EA", // purple-deep-a700
+    /* Title Bar colors */
     "titleBar.activeBackground": "#13151E", // bg
     "titleBar.inactiveBackground": "#23252E", // bg2
-    // menu
+    /* Menu Bar colors */
     "menu.background": "#23252E", // bg2
-    // notification
-    "notificationToast.border": "#6200EA", // purpled-a700
-    // extension
-    "extensionButton.prominentBackground": "#6200EA", // purpled-a700
-    "extensionButton.prominentHoverBackground": "#7C4DFF", // purpled-a200
-    // settings editor
+    /* Notification colors */
+    "notificationToast.border": "#6200EA", // purple-deep-a700
+    /* Extensions colors */
+    "extensionButton.prominentBackground": "#6200EA", // purple-deep-a700
+    "extensionButton.prominentHoverBackground": "#7C4DFF", // purple-deep-a200
+    /* Integrated Terminal colors */
+    /* Settings Editor colors */
     "settings.modifiedItemIndicator": "#FF8F00" // amber-800
   }
 }

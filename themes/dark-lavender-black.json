@@ -10,6 +10,8 @@
     "errorForeground": "#b71c1c", // red-900
     "icon.foreground": "#B388FF", // purple-deep-a100
     /* Text colors */
+    "textLink.activeForeground": "#FF9800", // orange-500
+    "textLink.foreground": "#2196F3", // blue-500
     /* Button control */
     "button.background": "#6200EA", // purple-deep-a700
     "checkbox.background": "#263238", // gray-900

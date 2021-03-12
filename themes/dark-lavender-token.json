@@ -52,6 +52,7 @@
       "name": "Keywords",
       "scope": [
         "keyword",
+        "keyword.control",
         "keyword.operator.alignas",
         "keyword.operator.alignof",
         "keyword.operator.cast",

@@ -4,6 +4,36 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [3.1.0] - 2021-03-12
+
+### Added
+
+- [token]
+  - Keywords: add `keyword.control`.
+- [ui]
+  - Add support for `editorOverviewRuler` and `editorGutter`.
+  - Add support for `editorMarkerNavigation`.
+  - Add support for `merge.{current*,incoming*}`.
+  - Add support for integrated terminal colors.
+  - Add suport for `diffEditor`.
+  - Add support for `textLink.{activeForeground,foreground}`.
+  - Add `button.secondaryBackground`.
+
+### Changed
+
+- [token]
+  - Align some tokens color to `*-a200`.
+  - Operators: `deep-purple-a200` => `amber-a200`.
+  - Boolean: `lime-100` => `amber-100`.
+  - Obeject Properties: `blue-a200` => `light-blue-a200`.
+  - Align color to `*-500` for Markup.
+- [ui]
+  - Align color of error, info, warning, modified to `*-900`.
+  - Improve `editorLineNumber`.
+  - Improve `editorIndentGuide`.
+  - Improve peak view colors and `statusBar.debuggingBackground`.
+  - Improve activity bar colors.
+
 ## [3.0.0] - 2021-03-11
 
 ### Added

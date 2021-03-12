@@ -15,6 +15,7 @@
     /* Button control */
     "button.background": "#6200EA", // purple-deep-a700
     "checkbox.background": "#263238", // gray-900
+    "button.secondaryBackground": "#00B8D4", // cyan-a700
     /* Dropdown control */
     "dropdown.background": "#263238", // gray-900
     "dropdown.listBackground": "#263238", // gray-900

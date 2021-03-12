@@ -14,6 +14,7 @@
     "textLink.foreground": "#2196F3", // blue-500
     /* Button control */
     "button.background": "#6200EA", // purple-deep-a700
+    "button.secondaryBackground": "#00B8D4", // cyan-a700
     "checkbox.background": "#263238", // gray-900
     /* Dropdown control */
     "dropdown.background": "#263238", // gray-900

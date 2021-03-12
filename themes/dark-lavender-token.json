@@ -338,14 +338,12 @@
     },
     {
       "name": "Markup - Code",
-      "scope": ["markup.raw.inline"],
-      "settings": {
-        "foreground": "#64FFDA" // teal-a200
-      }
-    },
-    {
-      "name": "Markup - Markup Code",
-      "scope": ["markup.fenced_code.block", "markup.inline.raw", "markup.raw.block"],
+      "scope": [
+        "markup.fenced_code.block",
+        "markup.inline.raw",
+        "markup.raw.block",
+        "markup.raw.inline"
+      ],
       "settings": {
         "foreground": "#FF9800" // orange-500
       }

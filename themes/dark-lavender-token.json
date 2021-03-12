@@ -44,7 +44,7 @@
       "name": "Operators",
       "scope": ["keyword.operator", "keyword.control.ternary", "keyword.control.anchor.regexp"],
       "settings": {
-        "foreground": "#7C4DFF", // deep-purple-a200
+        "foreground": "#FFD740", // amber-a200
         "fontStyle": ""
       }
     },
@@ -132,7 +132,7 @@
       "name": "Boolean",
       "scope": ["constant.language.boolean"],
       "settings": {
-        "foreground": "#F0F4C3" // lime-100
+        "foreground": "#FFECB3" // amber-100
       }
     },
     {
@@ -250,7 +250,7 @@
         "variable.other.property"
       ],
       "settings": {
-        "foreground": "#448AFF" // blue-a200
+        "foreground": "#40C4FF" // light-blue-a200
       }
     },
     {

@@ -52,9 +52,8 @@
     /* Editor colors */
     "editor.foreground": "#CFD8DC", // blue-gray-100
     "editor.background": "#07090F", // bg
-    "editorLineNumber.activeForeground": "#B388FF", // purple-deep-a100
-    "editorIndentGuide.background": "#404040",
-    "editorIndentGuide.activeBackground": "#707070",
+    "editorLineNumber.foreground": "#455A64", // blue-gray-700
+    "editorLineNumber.activeForeground": "#D500F9", // purple-a400
     /* Diff editor colors */
     /* Editor widget colors */
     "editorWidget.background": "#07090F", // bg

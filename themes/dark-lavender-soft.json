@@ -79,6 +79,10 @@
     "peekViewEditor.matchHighlightBackground": "#D1C4E930", // purple-deep-a100
     "peekViewTitle.background": "#13151E", // bg
     /* Merge conflicts colors */
+    "merge.currentHeaderBackground": "#004D407F", // teal-900
+    "merge.currentContentBackground": "#004D403F", // teal-900
+    "merge.incomingHeaderBackground": "#1A237E7F", // indigo-900
+    "merge.incomingContentBackground": "#1A237E3F", // indigo-900
     /* Panel colors */
     "panelTitle.activeBorder": "#6200EA", // purple-deep-a700
     /* Status Bar colors */

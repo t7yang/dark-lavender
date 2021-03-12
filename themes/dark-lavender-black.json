@@ -39,9 +39,10 @@
     "list.inactiveSelectionBackground": "#111119", // bg2
     /* Activity Bar */
     "activityBar.background": "#010109", // bg
-    "activityBar.foreground": "#8C9EFF", // indigo-a100
-    "activityBar.activeBorder": "#8C9EFF", // indigo-a100
-    "activityBarBadge.background": "#6200EA", // purple-deep-a700
+    "activityBar.inactiveForeground": "#EDE7F666", // deep-purple-50
+    "activityBar.foreground": "#651FFF", // deep-purple-a400
+    "activityBar.activeBorder": "#651FFF", // deep-purple-a400
+    "activityBarBadge.background": "#6200EA", // deep-purple-a700
     /* Side Bar */
     "sideBar.background": "#010109", // bg
     /* Editor Groups & Tabs */

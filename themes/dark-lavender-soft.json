@@ -7,7 +7,7 @@
     /* Base colors */
     "focusBorder": "#6200EA", // purple-deep-a700
     "foreground": "#CFD8DC", // blue-gray-100
-    "errorForeground": "#AD1457", // pink-800
+    "errorForeground": "#b71c1c", // red-900
     "icon.foreground": "#B388FF", // purple-deep-a100
     /* Text colors */
     /* Button control */
@@ -19,12 +19,12 @@
     /* Input control */
     "input.background": "#263238", // gray-900
     "inputOption.activeBackground": "#6200EA", // purple-deep-a700
-    "inputValidation.errorBackground": "#AD1457", // pink-800
-    "inputValidation.errorBorder": "#AD1457", // pink-800
-    "inputValidation.infoBackground": "#1565C0", // blue-800
-    "inputValidation.infoBorder": "#1565C0", // blue-800
-    "inputValidation.warningBackground": "#FF8F00", // amber-800
-    "inputValidation.warningBorder": "#FF8F00", // amber-800
+    "inputValidation.errorBackground": "#b71c1c", // red-900
+    "inputValidation.errorBorder": "#b71c1c", // red-900
+    "inputValidation.infoBackground": "#0D47A1", // blue-900
+    "inputValidation.infoBorder": "#0D47A1", // blue-900
+    "inputValidation.warningBackground": "#F57F17", // yellow-900
+    "inputValidation.warningBorder": "#F57F17", // yellow-900
     /* Badge */
     "badge.background": "#6200EA", // purple-deep-a700
     /* Progress bar */
@@ -48,7 +48,7 @@
     "tab.activeBorder": "#6200EA", // purple-deep-a700
     "tab.activeForeground": "#FAFAFA", // gray-50
     "tab.inactiveForeground": "#BDBDBD", // gray-500
-    "tab.activeModifiedBorder": "#FF8F00", // amber-800
+    "tab.activeModifiedBorder": "#FF6F00", // amber-900
     /* Editor colors */
     "editor.foreground": "#CFD8DC", // blue-gray-100
     "editor.background": "#13151E", // bg
@@ -86,6 +86,6 @@
     "extensionButton.prominentHoverBackground": "#7C4DFF", // purple-deep-a200
     /* Integrated Terminal colors */
     /* Settings Editor colors */
-    "settings.modifiedItemIndicator": "#FF8F00" // amber-800
+    "settings.modifiedItemIndicator": "#FF6F00" // amber-900
   }
 }

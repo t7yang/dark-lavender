@@ -366,7 +366,7 @@
       "name": "Markup - Changed",
       "scope": ["markup.changed"],
       "settings": {
-        "foreground": "#536DFE" // indigo-a200
+        "foreground": "#3F51B5" // indigo-500
       }
     },
     {
@@ -380,14 +380,14 @@
       "name": "Markup - Link Url",
       "scope": ["meta.link"],
       "settings": {
-        "foreground": "#536DFE" // indigo-a200
+        "foreground": "#3F51B5" // indigo-500
       }
     },
     {
       "name": "Markup - Lists",
       "scope": ["punctuation.definition.list"],
       "settings": {
-        "foreground": "#FF9800" // orange-500
+        "foreground": "#4CAF50" // green-500
       }
     },
     {
@@ -401,7 +401,7 @@
       "name": "Markup - Embedded",
       "scope": ["variable.interpolation"],
       "settings": {
-        "foreground": "#536DFE" // indigo-a200
+        "foreground": "#3F51B5" // indigo-500
       }
     },
     {

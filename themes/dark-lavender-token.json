@@ -44,7 +44,7 @@
       "name": "Operators",
       "scope": ["keyword.operator", "keyword.control.ternary", "keyword.control.anchor.regexp"],
       "settings": {
-        "foreground": "#B388FF", // deep-purple-a100
+        "foreground": "#7C4DFF", // deep-purple-a200
         "fontStyle": ""
       }
     },
@@ -68,7 +68,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#B388FF", // deep-purple-a100
+        "foreground": "#7C4DFF", // deep-purple-a200
         "fontStyle": "italic"
       }
     },
@@ -84,7 +84,7 @@
       "name": "Storage, Declaration Keywords",
       "scope": ["storage", "constant.language"],
       "settings": {
-        "foreground": "#FF80AB", // pink-a100
+        "foreground": "#FF4081", // pink-a200
         "fontStyle": "italic"
       }
     },
@@ -118,14 +118,14 @@
         "variable.other.constant.elixir"
       ],
       "settings": {
-        "foreground": "#FFF176" // yellow-300
+        "foreground": "#FFFF00" // yellow-a200
       }
     },
     {
       "name": "Built-In Types",
       "scope": ["support.type"],
       "settings": {
-        "foreground": "#FFF176" // yellow-300
+        "foreground": "#FFFF00" // yellow-a200
       }
     },
     {
@@ -200,7 +200,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#FFAB91" // deep-orange-200
+        "foreground": "#FFAB40" // orange-a200
       }
     },
     {
@@ -213,7 +213,7 @@
         "variable"
       ],
       "settings": {
-        "foreground": "#FFAB91" // deep-orange-200
+        "foreground": "#FFAB40" // orange-a200
       }
     },
     {
@@ -226,7 +226,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#FF8A65" // deep-orange-300
+        "foreground": "#FF6E40" // deep-orange-a200
       }
     },
     {
@@ -250,28 +250,28 @@
         "variable.other.property"
       ],
       "settings": {
-        "foreground": "#90CAF9" // blue-200
+        "foreground": "#448AFF" // blue-a200
       }
     },
     {
       "name": "XML/HTML Tags",
       "scope": ["entity.name.tag"],
       "settings": {
-        "foreground": "#B388FF" // deep-purple-a100
+        "foreground": "#7C4DFF" // deep-purple-a200
       }
     },
     {
       "name": "Attribute IDs",
       "scope": ["entity.other.attribute-name", "string.unquoted.alias.graphql"],
       "settings": {
-        "foreground": "#FF80AB" // pink-a100
+        "foreground": "#FF4081" // pink-a200
       }
     },
     {
       "name": "Css ID",
       "scope": ["entity.other.attribute-name.id"],
       "settings": {
-        "foreground": "#FFD180" // orange-a100
+        "foreground": "#FFAB40" // orange-a200
       }
     },
     {
@@ -279,7 +279,7 @@
       "scope": ["entity.name.section", "markup.heading", "punctuation.definition.heading"],
       "settings": {
         "fontStyle": "",
-        "foreground": "#EA80FC" // purple-a100
+        "foreground": "#E040FB" // purple-a200
       }
     },
     {

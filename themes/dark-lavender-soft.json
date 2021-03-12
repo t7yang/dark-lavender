@@ -66,6 +66,8 @@
     "editorGutter.addedBackground": "#004D40", // teal-900
     "editorGutter.deletedBackground": "#880E4F", // pink-900
     /* Diff editor colors */
+    "diffEditor.insertedTextBackground": "#004D403F", // teal-500
+    "diffEditor.removedTextBackground": "#880E4F3F", // pink-500
     /* Editor widget colors */
     "editorWidget.background": "#13151E", // bg
     "editorWidget.border": "#6200EA", // purple-deep-a700

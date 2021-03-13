@@ -2,6 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Dark Lavender",
   "type": "dark",
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "name": "Comments",

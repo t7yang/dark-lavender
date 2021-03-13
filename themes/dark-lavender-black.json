@@ -62,6 +62,7 @@
     "editor.lineHighlightBorder": "#0000",
     "editorIndentGuide.background": "#37474F", // blue-gray-800
     "editorIndentGuide.activeBackground": "#78909C", // blue-gray-400
+    "editorRuler.foreground": "#26323833", // blue-gray-900
     "editorOverviewRuler.modifiedForeground": "#0288D1", // light-blue-700
     "editorOverviewRuler.addedForeground": "#689F38", // light-green-700
     "editorOverviewRuler.deletedForeground": "#d32f2f", // red-700

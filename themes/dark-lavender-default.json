@@ -111,19 +111,19 @@
     "terminal.ansiBlack": "#263238", // blue-gray-900
     "terminal.ansiBlue": "#0D47A1", // blue-900
     "terminal.ansiBrightBlack": "#455A64", // blue-gray-700
-    "terminal.ansiBrightBlue": "#2196F3", // blue-300
-    "terminal.ansiBrightCyan": "#00BCD4", // cyan-300
-    "terminal.ansiBrightGreen": "#4CAF50", // green-300
-    "terminal.ansiBrightMagenta": "#E91E63", // pink-300
-    "terminal.ansiBrightRed": "#f44336", // red-300
-    "terminal.ansiBrightWhite": "#607D8B", // blue-gray-300
-    "terminal.ansiBrightYellow": "#FDE047", // yellow-300
-    "terminal.ansiCyan": "#0097A7", // cyan-500
-    "terminal.ansiGreen": "#388E3C", // green-500
-    "terminal.ansiMagenta": "#C2185B", // pink-500
-    "terminal.ansiRed": "#d32f2f", // red-500
-    "terminal.ansiWhite": "#455A64", // blue-gray-500
-    "terminal.ansiYellow": "#FBC02D", // yellow-500
+    "terminal.ansiBrightBlue": "#2196F3", // blue-500
+    "terminal.ansiBrightCyan": "#00BCD4", // cyan-500
+    "terminal.ansiBrightGreen": "#4CAF50", // green-500
+    "terminal.ansiBrightMagenta": "#E91E63", // pink-500
+    "terminal.ansiBrightRed": "#f44336", // red-500
+    "terminal.ansiBrightWhite": "#90A4AE", // blue-gray-300
+    "terminal.ansiBrightYellow": "#FFEB3B", // yellow-500
+    "terminal.ansiCyan": "#0097A7", // cyan-700
+    "terminal.ansiGreen": "#388E3C", // green-700
+    "terminal.ansiMagenta": "#C2185B", // pink-700
+    "terminal.ansiRed": "#d32f2f", // red-700
+    "terminal.ansiWhite": "#607D8B", // blue-gray-500
+    "terminal.ansiYellow": "#FBC02D", // yellow-700
     /* Settings Editor colors */
     "settings.modifiedItemIndicator": "#FF6F00" // amber-900
   }

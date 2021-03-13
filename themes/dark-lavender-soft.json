@@ -124,6 +124,15 @@
     "terminal.ansiRed": "#d32f2f", // red-700
     "terminal.ansiWhite": "#607D8B", // blue-gray-500
     "terminal.ansiYellow": "#FBC02D", // yellow-700
+    /* Git colors */
+    "gitDecoration.addedResourceForeground": "#8BC34A", // light-green
+    "gitDecoration.modifiedResourceForeground": "#03A9F4", // light-blue
+    "gitDecoration.stageModifiedResourceForeground": "#FFC107", // amber
+    "gitDecoration.deletedResourceForeground": "#f44336", // red
+    "gitDecoration.stageDeletedResourceForeground": "#f44336", // red
+    "gitDecoration.untrackedResourceForeground": "#8BC34A", // light-green
+    "gitDecoration.conflictingResourceForeground": "#f44336", // red
+    "gitDecoration.submoduleResourceForeground": "#81D4FA", // light-blue-200
     /* Settings Editor colors */
     "settings.modifiedItemIndicator": "#FF6F00" // amber-900
   }

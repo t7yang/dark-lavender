@@ -61,7 +61,7 @@
     "editor.wordHighlightBackground": "#1976D266", // blue-700
     "editor.wordHighlightStrongBackground": "#C2185B66", // pink-700
     "editor.lineHighlightBackground": "#455A6433", // blue-gray-700
-    "editor.lineHighlightBorder": "#0000",
+    "editor.lineHighlightBorder": "#0000", // transparency
     "editorIndentGuide.background": "#37474F", // blue-gray-800
     "editorIndentGuide.activeBackground": "#78909C", // blue-gray-400
     "editorRuler.foreground": "#26323833", // blue-gray-900

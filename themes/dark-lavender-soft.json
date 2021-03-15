@@ -58,6 +58,8 @@
     "editor.background": "#13151E", // bg
     "editorLineNumber.foreground": "#455A64", // blue-gray-700
     "editorLineNumber.activeForeground": "#D500F9", // purple-a400
+    "editor.wordHighlightBackground": "#1976D266", // blue-700
+    "editor.wordHighlightStrongBackground": "#C2185B66", // pink-700
     "editor.lineHighlightBackground": "#455A6433", // blue-gray-700
     "editor.lineHighlightBorder": "#0000",
     "editorIndentGuide.background": "#37474F", // blue-gray-800

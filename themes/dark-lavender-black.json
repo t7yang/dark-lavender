@@ -67,6 +67,8 @@
     "editorRuler.foreground": "#26323833", // blue-gray-900
     "editorLightBulb.foreground": "#FFEB3B", // yellow-500
     "editorLightBulbAutoFix.foreground": "#2196F3", // blue-500
+    "editorBracketMatch.background": "#FFA0007F", // amber-700
+    "editorBracketMatch.border": "#0000", // transparency
     "editorOverviewRuler.modifiedForeground": "#0288D1", // light-blue-700
     "editorOverviewRuler.addedForeground": "#689F38", // light-green-700
     "editorOverviewRuler.deletedForeground": "#d32f2f", // red-700

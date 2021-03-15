@@ -4,6 +4,33 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [3.2.0] - 2021-03-15
+
+### Added
+
+- [token]
+  - Add support for "Git colors".
+- [ui]
+  - Add support for `editor.lineHight{Background,Border}`.
+  - Add support for `editorRuler.foreground`.
+  - Add support for `editorLightBulb*`.
+  - Add support for `editor.wordHighlight`.
+  - Add support for `editorBracketMatch`.
+
+### Changed
+
+- Re-enabled `semanticHighlighting`.
+- [token]
+  - Change color for `error`, `warning`, `modified`, `added`, `delete`.
+- [ui]
+  - Brighter active indicator.
+  - Improve "Merge Conflicts colors".
+
+### Fixed
+
+- [ui]
+  - Correct colors in "Integrated Terminal colors".
+
 ## [3.1.0] - 2021-03-12
 
 ### Added

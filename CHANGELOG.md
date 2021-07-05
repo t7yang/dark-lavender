@@ -4,6 +4,13 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [3.2.1] - 2021-07-05
+
+### Fixed
+
+- [token]
+  - end tag punctuation start has weird color.
+
 ## [3.2.0] - 2021-03-15
 
 ### Added

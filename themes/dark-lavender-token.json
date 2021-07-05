@@ -208,7 +208,6 @@
       "name": "Variables",
       "scope": [
         "punctuation.definition.variable",
-        "source",
         "string meta.embedded.line.ruby",
         "string source.groovy",
         "variable"

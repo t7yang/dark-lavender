@@ -286,7 +286,7 @@
       "name": "Markup - Text",
       "scope": ["meta.paragraph"],
       "settings": {
-        "foreground": "#F3E5F5" // purple-50
+        "foreground": "#B0BEC5" // blue-gray-200
       }
     },
     {
@@ -338,12 +338,7 @@
     },
     {
       "name": "Markup - Code",
-      "scope": [
-        "markup.fenced_code.block",
-        "markup.inline.raw",
-        "markup.raw.block",
-        "markup.raw.inline"
-      ],
+      "scope": ["markup.fenced_code.block", "markup.inline.raw", "markup.raw.block", "markup.raw.inline"],
       "settings": {
         "foreground": "#FF9800" // orange-500
       }
@@ -427,10 +422,7 @@
     },
     {
       "name": "BASH: Substitution",
-      "scope": [
-        "punctuation.definition.string.begin.shell",
-        "punctuation.definition.string.end.shell"
-      ],
+      "scope": ["punctuation.definition.string.begin.shell", "punctuation.definition.string.end.shell"],
       "settings": {
         "foreground": "#9C27B0" // purple-500
       }

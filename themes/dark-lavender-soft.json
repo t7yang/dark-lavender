@@ -6,7 +6,7 @@
   "colors": {
     /* Base colors */
     "focusBorder": "#6200EA", // purple-deep-a700
-    "foreground": "#CFD8DC", // blue-gray-100
+    "foreground": "#B0BEC5", // blue-gray-200
     "errorForeground": "#C2185B", // pink-700
     "icon.foreground": "#B388FF", // purple-deep-a100
     /* Text colors */
@@ -54,7 +54,7 @@
     "tab.inactiveForeground": "#BDBDBD", // gray-500
     "tab.activeModifiedBorder": "#FFA000", // amber-700
     /* Editor colors */
-    "editor.foreground": "#CFD8DC", // blue-gray-100
+    "editor.foreground": "#B0BEC5", // blue-gray-200
     "editor.background": "#13151E", // bg
     "editorLineNumber.foreground": "#455A64", // blue-gray-700
     "editorLineNumber.activeForeground": "#D500F9", // purple-a400

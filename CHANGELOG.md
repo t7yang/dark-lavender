@@ -4,6 +4,12 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [3.2.2] - 2021-08-23
+
+### Changed
+
+- decrease brightness for plain text color
+
 ## [3.2.1] - 2021-07-05
 
 ### Fixed

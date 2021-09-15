@@ -91,7 +91,16 @@
     },
     {
       "name": "Storage, Declaration Keywords",
-      "scope": ["constant.language", "punctuation.definition.function.pointer", "storage", "storage.type.struct"],
+      "scope": [
+        "constant.language",
+        "source.cs keyword.other.class",
+        "source.cs keyword.other.get",
+        "source.cs keyword.other.set",
+        "source.cs keyword.other.var",
+        "punctuation.definition.function.pointer",
+        "storage",
+        "storage.type.struct"
+      ],
       "settings": {
         "foreground": "#FF4081" // pink-a200
       }
@@ -119,10 +128,12 @@
         "entity.name.class",
         "entity.name.type",
         "entity.other.inherited-class",
+        "keyword.type",
         "meta.class.inheritance",
         "meta.class.instance",
         "meta.function.definition",
         "storage.type.built-in",
+        "source.cs storage.type",
         "support.class",
         "support.type",
         "variable.other.constant.elixir"
@@ -210,6 +221,7 @@
       "scope": [
         "entity.name.namespace",
         "entity.name.scope-resolution",
+        "entity.name.variable",
         "meta.block",
         "punctuation.definition.variable",
         "string meta.embedded.line.ruby",
@@ -228,7 +240,7 @@
       "scope": [
         "constant",
         "entity.name.function.preprocessor",
-        "meta.preprocessor.macro",
+        "meta.preprocessor",
         "punctuation.definition.constant",
         "support.constant",
         "support.variable.magic.python",
@@ -244,6 +256,8 @@
         "constant.other.key",
         "constant.other.object.key.js",
         "entity.name.tag.yaml",
+        "entity.name.variable.field",
+        "entity.name.variable.property",
         "meta.object-literal.key",
         "meta.object.member",
         "meta.meta.objectliteral",

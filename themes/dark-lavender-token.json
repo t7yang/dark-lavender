@@ -208,6 +208,7 @@
     {
       "name": "Variables",
       "scope": [
+        "entity.name.namespace",
         "punctuation.definition.variable",
         "string meta.embedded.line.ruby",
         "string source.groovy",
@@ -270,7 +271,7 @@
     },
     {
       "name": "Attribute IDs",
-      "scope": ["entity.other.attribute-name", "string.unquoted.alias.graphql"],
+      "scope": ["entity.other.attribute-name", "meta.attribute", "string.unquoted.alias.graphql"],
       "settings": {
         "foreground": "#FF4081" // pink-a200
       }

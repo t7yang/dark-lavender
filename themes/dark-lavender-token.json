@@ -12,6 +12,13 @@
       }
     },
     {
+      "name": "Builtin and Keyword",
+      "scope": ["constant.language", "variable.language", "keyword", "meta.control", "storage", "support"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Punctuation",
       "scope": [
         "constant.name.attribute.tag.pug",
@@ -69,8 +76,8 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#7C4DFF", // deep-purple-a200
-        "fontStyle": "italic"
+        "fontStyle": "italic",
+        "foreground": "#7C4DFF" // deep-purple-a200
       }
     },
     {
@@ -85,8 +92,7 @@
       "name": "Storage, Declaration Keywords",
       "scope": ["storage", "constant.language"],
       "settings": {
-        "foreground": "#FF4081", // pink-a200
-        "fontStyle": "italic"
+        "foreground": "#FF4081" // pink-a200
       }
     },
     {
@@ -116,15 +122,9 @@
         "meta.class.instance",
         "storage.type.haskell",
         "support.class",
+        "support.type",
         "variable.other.constant.elixir"
       ],
-      "settings": {
-        "foreground": "#FFFF00" // yellow-a200
-      }
-    },
-    {
-      "name": "Built-In Types",
-      "scope": ["support.type"],
       "settings": {
         "foreground": "#FFFF00" // yellow-a200
       }
@@ -251,6 +251,13 @@
       ],
       "settings": {
         "foreground": "#40C4FF" // light-blue-a200
+      }
+    },
+    {
+      "name": "Data Source Properties",
+      "scope": ["support.type.property-name"],
+      "settings": {
+        "fontStyle": ""
       }
     },
     {

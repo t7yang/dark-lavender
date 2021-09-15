@@ -91,7 +91,7 @@
     },
     {
       "name": "Storage, Declaration Keywords",
-      "scope": ["storage", "constant.language"],
+      "scope": ["constant.language", "punctuation.definition.function.pointer", "storage", "storage.type.struct"],
       "settings": {
         "foreground": "#FF4081" // pink-a200
       }
@@ -114,14 +114,15 @@
       }
     },
     {
-      "name": "Classes",
+      "name": "Classes and Types",
       "scope": [
         "entity.name.class",
         "entity.name.type",
         "entity.other.inherited-class",
         "meta.class.inheritance",
         "meta.class.instance",
-        "storage.type.haskell",
+        "meta.function.definition",
+        "storage.type.built-in",
         "support.class",
         "support.type",
         "variable.other.constant.elixir"
@@ -149,7 +150,6 @@
       "scope": [
         "storage.type.string",
         "string",
-        "string.quoted.double.shell",
         "support.constant.property-value",
         "support.function.variable.quoted.single.elixir"
       ],
@@ -196,7 +196,7 @@
     {
       "name": "Parameters",
       "scope": [
-        "meta.function-call.arguments",
+        "meta.function-call",
         "parameter.variable.function.elixir",
         "variable.other.block.ruby",
         "variable.parameter"
@@ -209,9 +209,14 @@
       "name": "Variables",
       "scope": [
         "entity.name.namespace",
+        "entity.name.scope-resolution",
+        "meta.block",
         "punctuation.definition.variable",
         "string meta.embedded.line.ruby",
         "string source.groovy",
+        "source.cpp meta.bracket.square.access",
+        "source.cpp meta.parens",
+        "support.other",
         "variable"
       ],
       "settings": {
@@ -222,6 +227,8 @@
       "name": "Constants",
       "scope": [
         "constant",
+        "entity.name.function.preprocessor",
+        "meta.preprocessor.macro",
         "punctuation.definition.constant",
         "support.constant",
         "support.variable.magic.python",

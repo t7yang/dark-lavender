@@ -13,7 +13,15 @@
     },
     {
       "name": "Builtin and Keyword",
-      "scope": ["constant.language", "variable.language", "keyword", "meta.control", "storage", "support"],
+      "scope": [
+        "constant.language",
+        "variable.language",
+        "variable.parameter.function.language.special",
+        "keyword",
+        "meta.control",
+        "storage",
+        "support"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
@@ -74,7 +82,8 @@
         "keyword.operator.wordlike",
         "keyword.other.special-method.elixir",
         "meta.control.flow",
-        "variable.language"
+        "variable.language",
+        "variable.parameter.function.language.special"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -264,6 +273,7 @@
         "meta.meta.objectliteral",
         "meta.property-name",
         "string.unquoted.label.js",
+        "source.python meta.attribute",
         "support.type.map.key",
         "support.type.property-name",
         "support.type.vendored.property-name",
@@ -408,13 +418,6 @@
       "scope": ["meta.link"],
       "settings": {
         "foreground": "#3F51B5" // indigo-500
-      }
-    },
-    {
-      "name": "Markup - Lists",
-      "scope": ["punctuation.definition.list"],
-      "settings": {
-        "foreground": "#4CAF50" // green-500
       }
     },
     {

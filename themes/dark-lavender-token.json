@@ -272,6 +272,7 @@
         "meta.object.member",
         "meta.meta.objectliteral",
         "meta.property-name",
+        "punctuation.definition.variable.ruby",
         "string.unquoted.label.js",
         "source.python meta.attribute",
         "support.type.map.key",
@@ -282,7 +283,9 @@
         "variable.object.property",
         "variable.other.member",
         "variable.other.object.property",
-        "variable.other.property"
+        "variable.other.property",
+        "variable.other.readwrite.class",
+        "variable.other.readwrite.instance"
       ],
       "settings": {
         "foreground": "#40C4FF" // light-blue-a200

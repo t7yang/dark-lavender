@@ -82,6 +82,7 @@
         "keyword.operator.wordlike",
         "keyword.other.special-method.elixir",
         "meta.control.flow",
+        "source.php variable.language.this punctuation.definition.variable",
         "variable.language",
         "variable.parameter.function.language.special"
       ],
@@ -138,6 +139,7 @@
         "entity.name.type",
         "entity.other.inherited-class",
         "keyword.type",
+        "keyword.other.type",
         "meta.class.inheritance",
         "meta.class.instance",
         "meta.function.definition",

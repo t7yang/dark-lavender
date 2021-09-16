@@ -463,13 +463,6 @@
       }
     },
     {
-      "name": "BASH: Substitution",
-      "scope": ["punctuation.definition.string.begin.shell", "punctuation.definition.string.end.shell"],
-      "settings": {
-        "foreground": "#9C27B0" // purple-500
-      }
-    },
-    {
       "name": "CSV Rainbow 4",
       "scope": ["comment.rainbow4"],
       "settings": {

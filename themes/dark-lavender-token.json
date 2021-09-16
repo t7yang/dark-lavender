@@ -241,6 +241,7 @@
         "source.cpp meta.bracket.square.access",
         "source.cpp meta.parens",
         "support.other",
+        "support.type.object",
         "variable"
       ],
       "settings": {
@@ -271,6 +272,7 @@
         "entity.name.variable.field",
         "entity.name.variable.property",
         "meta.object-literal.key",
+        "meta.object-literal.key string",
         "meta.object.member",
         "meta.meta.objectliteral",
         "meta.property-name",

@@ -81,10 +81,7 @@
         "keyword.operator.typeid",
         "keyword.operator.wordlike",
         "keyword.other.special-method.elixir",
-        "meta.control.flow",
-        "source.php variable.language.this punctuation.definition.variable",
-        "variable.language",
-        "variable.parameter.function.language.special"
+        "meta.control.flow"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -102,7 +99,6 @@
     {
       "name": "Storage, Declaration Keywords",
       "scope": [
-        "constant.language",
         "source.cs keyword.other.class",
         "source.cs keyword.other.get",
         "source.cs keyword.other.set",
@@ -152,13 +148,6 @@
       ],
       "settings": {
         "foreground": "#FFFF00" // yellow-a200
-      }
-    },
-    {
-      "name": "Boolean",
-      "scope": ["constant.language.boolean"],
-      "settings": {
-        "foreground": "#FFECB3" // amber-100
       }
     },
     {
@@ -261,6 +250,18 @@
       ],
       "settings": {
         "foreground": "#FF6E40" // deep-orange-a200
+      }
+    },
+    {
+      "name": "Builtin Variable",
+      "scope": [
+        "constant.language",
+        "source.php variable.language.this punctuation.definition.variable",
+        "variable.language",
+        "variable.parameter.function.language.special"
+      ],
+      "settings": {
+        "foreground": "#FF5252" // red-a200
       }
     },
     {

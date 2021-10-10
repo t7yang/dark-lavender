@@ -61,8 +61,8 @@
       "name": "Operators",
       "scope": ["keyword.operator", "keyword.control.ternary", "keyword.control.anchor.regexp"],
       "settings": {
-        "foreground": "#FFD740", // amber-a200
-        "fontStyle": ""
+        "fontStyle": "",
+        "foreground": "#B2FF59" // light-green-a200
       }
     },
     {

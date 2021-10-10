@@ -336,7 +336,7 @@
       "name": "Markup - Text",
       "scope": ["meta.paragraph"],
       "settings": {
-        "foreground": "#B0BEC5" // blue-gray-200
+        "foreground": "#CFD8DC" // blue-gray-100
       }
     },
     {

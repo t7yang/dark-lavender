@@ -16,6 +16,7 @@ A smooth and nice dark theme for VSCode with material design colors.
 - [Semantic Highlight Guide](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide)
 - [Semantic Highlighting Overview](https://github.com/microsoft/vscode/wiki/Semantic-Highlighting-Overview)
 - [TypeScript VSCode Sh Plugin](https://github.com/aeschli/typescript-vscode-sh-plugin/blob/master/README.md)
+- [Textmate Language Grammars](https://macromates.com/manual/en/language_grammars)
 
 ### Fonts
 

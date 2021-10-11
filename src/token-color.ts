@@ -235,6 +235,7 @@ export const tokenColors: TokenColor[] = [
       'meta.preprocessor',
       'punctuation.definition.constant',
       'support.constant',
+      'support.constant.property-value.css',
       'support.variable.magic.python',
       'variable.other.constant',
     ],

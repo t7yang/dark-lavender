@@ -57,7 +57,7 @@ export const tokenColors: TokenColor[] = [
   },
   {
     name: 'Operators',
-    scope: ['keyword.operator', 'keyword.control.ternary', 'keyword.control.anchor.regexp'],
+    scope: ['keyword.operator', 'keyword.control.ternary', 'keyword.control.anchor.regexp', 'keyword.other.unit'],
     settings: {
       fontStyle: '',
       foreground: md.lightGreen.A200,
@@ -84,14 +84,6 @@ export const tokenColors: TokenColor[] = [
     settings: {
       fontStyle: 'italic',
       foreground: md.deepPurple.A200,
-    },
-  },
-  {
-    name: 'Units',
-    scope: 'keyword.other.unit',
-    settings: {
-      fontStyle: '',
-      foreground: md.teal.A200,
     },
   },
   {

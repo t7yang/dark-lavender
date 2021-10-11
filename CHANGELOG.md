@@ -4,6 +4,29 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [4.0.0] - 2021-10-12
+
+Many changes in this version release and thank [vscode-typed-theme-generator](https://github.com/t7yang/vscode-theme-generator), now I can design VSCode theme with TypeScript 😀
+
+### Added
+
+- Add basic support for many popular languages — Rust, C, C#, Haskell, Python, Ruby, PHP.
+- All built in tokens is now italic.
+- Add more support for punctuation.
+- Add support for CSS property value.
+
+### Changed
+
+- Remove built in variable from Keyword group, make it deeper than Constant group.
+- Increase text color brightness.
+- Operators group is now color lightGreen.a200.
+- String group is now color lightGreen.100.
+- Move Unit group token to Operators group.
+
+### Fixed
+
+- Add some missing object property tokens.
+
 ## [3.2.2] - 2021-08-23
 
 ### Changed

@@ -25,17 +25,17 @@
       {
         "label": "Dark Lavender",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-lavender-default.json"
+        "path": "themes/default.json"
       },
       {
-        "label": "Dark Lavender - Black",
+        "label": "Dark Lavender (Black)",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-lavender-black.json"
+        "path": "themes/black.json"
       },
       {
-        "label": "Dark Lavender - Soft",
+        "label": "Dark Lavender (Soft)",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-lavender-soft.json"
+        "path": "themes/soft.json"
       }
     ]
   },

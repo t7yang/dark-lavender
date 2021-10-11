@@ -49,6 +49,17 @@
     "url": "https://github.com/t7yang/dark-lavender/issues"
   },
   "scripts": {
-    "build": "vsce package"
+    "dev": "tsnd --respawn src/themes.ts",
+    "build": "tsnd src/themes.ts",
+    "build:vs": "vsce package"
+  },
+  "dependencies": {
+    "material-colors-ts": "^1.0.4",
+    "vscode-typed-theme-generator": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
   }
 }

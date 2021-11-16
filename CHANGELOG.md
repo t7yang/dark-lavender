@@ -6,7 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [4.0.0] - 2021-10-12
 
-Many changes in this version release and thank [vscode-typed-theme-generator](https://github.com/t7yang/vscode-theme-generator), now I can design VSCode theme with TypeScript 😀
+Many changes in this version release and thank [vscode-typed-theme-generator](https://github.com/t7yang/vscode-typed-theme-generator), now I can design VSCode theme with TypeScript 😀
 
 ### Added
 

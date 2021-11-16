@@ -31,7 +31,7 @@ Other worth noting features:
 ## Special Thanks
 
 - [material-colors-ts](https://github.com/harveyconnor/material-colors-ts)
-- [VSCode Typed Theme Generator](https://github.com/t7yang/vscode-theme-generator) - create VSCode theme with TypeScript.
+- [VSCode Typed Theme Generator](https://github.com/t7yang/vscode-typed-theme-generator) - create VSCode theme with TypeScript.
 
 ## References
 

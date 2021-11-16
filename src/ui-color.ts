@@ -1,15 +1,6 @@
 import md from 'material-colors-ts';
-import { createVariant, createVariantUiColor, UiColor } from 'vscode-typed-theme-generator';
-
-const [variant, vVar] = createVariant({
-  default: { bg1: '#07090F', bg2: '#17191F' },
-  black: { bg1: '#010109', bg2: '#111119' },
-  soft: { bg1: '#13151E', bg2: '#23252E' },
-});
-
-const colors = {
-  transparency: '#0000',
-};
+import { createVariantUiColor, UiColor } from 'vscode-typed-theme-generator';
+import { colors, variant, vVar } from './color';
 
 const uiColor: UiColor = {
   // base

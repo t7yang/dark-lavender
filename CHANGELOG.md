@@ -4,6 +4,20 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [4.1.0] - 2021-11-17
+
+### Added
+
+- add support for type label.
+
+### Changed
+
+- increase `editorRuler.foreground` alpha to 0.5.
+
+### Removed
+
+- remove `meta.block`.
+
 ## [4.0.0] - 2021-10-12
 
 Many changes in this version release and thank [vscode-typed-theme-generator](https://github.com/t7yang/vscode-typed-theme-generator), now I can design VSCode theme with TypeScript 😀

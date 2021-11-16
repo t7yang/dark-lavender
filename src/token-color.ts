@@ -214,7 +214,6 @@ export const tokenColors: TokenColor[] = [
       'entity.name.namespace',
       'entity.name.scope-resolution',
       'entity.name.variable',
-      'meta.block',
       'punctuation.definition.variable',
       'string meta.embedded.line.ruby',
       'string source.groovy',

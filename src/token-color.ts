@@ -129,6 +129,7 @@ export const tokenColors: TokenColor[] = [
       'meta.class.inheritance',
       'meta.class.instance',
       'meta.function.definition',
+      'meta.type',
       'source.cs storage.type',
       'storage.type.built-in',
       'storage.type.haskell',
@@ -260,6 +261,7 @@ export const tokenColors: TokenColor[] = [
     scope: [
       'constant.other.key',
       'constant.other.object.key.js',
+      'entity.name.label',
       'entity.name.tag.yaml',
       'entity.name.variable.field',
       'entity.name.variable.property',

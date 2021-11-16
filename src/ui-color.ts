@@ -63,7 +63,7 @@ const uiColor: UiColor = {
   'editor.lineHighlightBorder': colors.transparency,
   'editorIndentGuide.background': md.blueGrey[800],
   'editorIndentGuide.activeBackground': md.blueGrey[400],
-  'editorRuler.foreground': md.blueGrey[900] + 33,
+  'editorRuler.foreground': md.blueGrey[900] + '7F',
   'editorLightBulb.foreground': md.yellow[500],
   'editorLightBulbAutoFix.foreground': md.blue[500],
   'editorBracketMatch.background': md.amber[700] + '7F',

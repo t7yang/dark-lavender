@@ -4,6 +4,14 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [4.1.1] - 2021-11-21
+
+### Changed
+
+- remove word like operators from keyword.
+- remove token not operator from operators group.
+- increase operators group color to lightGreen.A400.
+
 ## [4.1.0] - 2021-11-17
 
 ### Added

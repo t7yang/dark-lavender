@@ -60,7 +60,7 @@ export const tokenColors: TokenColor[] = [
     scope: ['keyword.operator', 'keyword.other.unit'],
     settings: {
       fontStyle: '',
-      foreground: md.lightGreen.A200,
+      foreground: md.lightGreen.A400,
     },
   },
   {

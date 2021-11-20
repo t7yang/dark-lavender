@@ -65,22 +65,7 @@ export const tokenColors: TokenColor[] = [
   },
   {
     name: 'Keywords',
-    scope: [
-      'keyword',
-      'keyword.control',
-      'keyword.operator.alignas',
-      'keyword.operator.alignof',
-      'keyword.operator.cast',
-      'keyword.operator.expression',
-      'keyword.operator.instanceof',
-      'keyword.operator.logical.python',
-      'keyword.operator.new',
-      'keyword.operator.sizeof',
-      'keyword.operator.typeid',
-      'keyword.operator.wordlike',
-      'keyword.other.special-method.elixir',
-      'meta.control.flow',
-    ],
+    scope: ['keyword', 'keyword.control', 'keyword.other.special-method.elixir', 'meta.control.flow'],
     settings: {
       fontStyle: 'italic',
       foreground: md.deepPurple.A200,

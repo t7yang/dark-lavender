@@ -4,6 +4,12 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [4.1.2] - 2021-11-21
+
+### Fixed
+
+- italic word like operators that removed from keyword group.
+
 ## [4.1.1] - 2021-11-21
 
 ### Changed

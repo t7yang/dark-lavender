@@ -4,6 +4,12 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [4.1.3] - 2021-12-04
+
+### Fixed
+
+- make sure all token from `defaultLibrary` italic
+
 ## [4.1.2] - 2021-11-21
 
 ### Fixed

@@ -1,4 +1,5 @@
 import { createVsCodeTheme, CreateVsCodeThemeConfig, UiColor, VsCodeThemeMeta } from 'vscode-typed-theme-generator';
+import { semanticTokenColors } from './semantic-color';
 import { tokenColors } from './token-color';
 import { variantUiColor } from './ui-color';
 
@@ -22,6 +23,7 @@ const config: CreateVsCodeThemeConfig = {
       theme: {
         name: names[variant],
         semanticHighlighting: true,
+        semanticTokenColors,
         colors: uiColor,
         tokenColors,
       },

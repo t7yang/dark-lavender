@@ -49,6 +49,7 @@
     "url": "https://github.com/t7yang/dark-lavender/issues"
   },
   "scripts": {
+    "update": "yarn upgrade-interactive",
     "dev": "tsnd --respawn src/themes.ts",
     "build": "tsnd src/themes.ts",
     "build:vs": "vsce package"

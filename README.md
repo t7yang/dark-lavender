@@ -4,7 +4,9 @@ Dark Lavender is a beautiful dark theme with material design colors for Visual S
 
 How Dark Lavender theme help developer? Dark Lavender styling difference category of language tokens in difference colors, this help developers to identify what kind of symbol it is from its coloring and font styling.
 
-Here is some of the styling rules, to preview the theme design see the code snippet image below :
+If you want to know more about Dark Lavender, please read this [acticle](https://dev.to/t7yang/dark-lavender-a-beautiful-and-useful-vscode-theme-41gh).
+
+Here is some of the styling rules, to preview the theme design see the code snippet image below:
 
 - Built in keyword, variable, function, class... with font style italic, if you see something dispaly in italic, just do not re-assgin or change it value.
 - Keywords not for declaration (`for`, `while`, `import`) are color as purple.

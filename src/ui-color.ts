@@ -55,7 +55,7 @@ const uiColor: UiColor = {
   // editor
   'editor.foreground': md.blueGrey[100],
   'editor.background': vVar.bg1,
-  'editorLineNumber.foreground': md.blueGrey[700],
+  'editorLineNumber.foreground': md.blueGrey[800],
   'editorLineNumber.activeForeground': md.purple.A400,
   'editor.wordHighlightBackground': md.blue[700] + 66,
   'editor.wordHighlightStrongBackground': md.pink[700] + 66,

@@ -71,6 +71,7 @@ const uiColor: UiColor = {
   'editor.findMatchBorder': colors.transparency,
   'editor.findMatchHighlightBorder': colors.transparency,
   'editor.findRangeHighlightBorder': colors.transparency,
+  'editor.lineHighlightBackground': transparent(md.blueGrey[700], 0.3),
   'editor.lineHighlightBorder': colors.transparency,
   'editorIndentGuide.background': md.blueGrey[800],
   'editorIndentGuide.activeBackground': md.blueGrey[400],

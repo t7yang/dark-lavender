@@ -1,5 +1,5 @@
 import md from 'material-colors-ts';
-import { createVariantUiColor, UiColor } from 'vscode-typed-theme-generator';
+import { createVariantUiColor, transparent, UiColor } from 'vscode-typed-theme-generator';
 import { colors, variant, vVar } from './color';
 
 const uiColor: UiColor = {
@@ -57,9 +57,20 @@ const uiColor: UiColor = {
   'editor.background': vVar.bg1,
   'editorLineNumber.foreground': md.blueGrey[800],
   'editorLineNumber.activeForeground': md.purple.A400,
-  'editor.wordHighlightBackground': md.blue[700] + 66,
-  'editor.wordHighlightStrongBackground': md.pink[700] + 66,
-  'editor.lineHighlightBackground': md.blueGrey[700] + 33,
+  'editor.selectionBackground': transparent(md.lightBlue[500], 0.5),
+  'editor.inactiveSelectionBackground': transparent(md.lightBlue[500], 0.1),
+  'editor.selectionHighlightBackground': transparent(md.lightBlue[500], 0.1),
+  'editor.selectionHighlightBorder': colors.transparency,
+  'editor.wordHighlightBackground': transparent(md.indigo[500], 0.5),
+  'editor.wordHighlightBorder': colors.transparency,
+  'editor.wordHighlightStrongBackground': transparent(md.pink[500], 0.5),
+  'editor.wordHighlightStrongBorder': colors.transparency,
+  'editor.findMatchBackground': transparent(md.orange[500], 0.5),
+  'editor.findMatchHighlightBackground': transparent(md.orange[500], 0.2),
+  'editor.findRangeHighlightBackground': transparent(md.orange[500], 0.2),
+  'editor.findMatchBorder': colors.transparency,
+  'editor.findMatchHighlightBorder': colors.transparency,
+  'editor.findRangeHighlightBorder': colors.transparency,
   'editor.lineHighlightBorder': colors.transparency,
   'editorIndentGuide.background': md.blueGrey[800],
   'editorIndentGuide.activeBackground': md.blueGrey[400],
@@ -90,7 +101,7 @@ const uiColor: UiColor = {
   'peekView.border': md.deepPurple.A700,
   'peekViewEditor.background': md.deepPurple.A700 + '05',
   'peekViewResult.background': md.deepPurple.A700 + '05',
-  'peekViewEditor.matchHighlightBackground': md.deepPurple.A700 + '30',
+  'peekViewEditor.matchHighlightBackground': transparent(md.orange[500], 0.2),
   'peekViewTitle.background': vVar.bg1,
   // mergeConflict
   'merge.currentHeaderBackground': md.teal[500] + '99',

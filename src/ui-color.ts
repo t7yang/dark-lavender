@@ -78,7 +78,7 @@ const uiColor: UiColor = {
   'editorRuler.foreground': md.blueGrey[900] + '7F',
   'editorLightBulb.foreground': md.yellow[500],
   'editorLightBulbAutoFix.foreground': md.blue[500],
-  'editorBracketMatch.background': md.amber[700] + '7F',
+  'editorBracketMatch.background': transparent(md.amber[700], 0.4),
   'editorBracketMatch.border': colors.transparency,
   'editorOverviewRuler.modifiedForeground': md.lightBlue[700],
   'editorOverviewRuler.addedForeground': md.lightGreen[700],

@@ -13,7 +13,7 @@ const uiColor: UiColor = {
   'textLink.foreground': md.blue[500],
   // button
   'button.background': md.deepPurple.A700,
-  'button.secondaryBackground': md.cyan.A700,
+  'button.secondaryBackground': md.deepOrange.A700,
   'checkbox.background': md.grey[900],
   // dropdown
   'dropdown.background': md.grey[900],

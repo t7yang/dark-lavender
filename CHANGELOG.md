@@ -4,6 +4,14 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [4.2.1]
+
+### Changed
+
+- improve selection, wordHighLight, and findMatch colors
+- lighter `editorBracketMatch.background` background color
+- change `button.secondaryBackground` to `deepOrange.A700`
+
 ## [4.2.0]
 
 ### Added

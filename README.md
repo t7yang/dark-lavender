@@ -2,7 +2,7 @@
 
 Dark Lavender is a beautiful dark theme with material design colors for Visual Studio Code not just for eye candy but very useful for developer especially for novice programmer.
 
-How Dark Lavender theme help developer? Dark Lavender styling difference category of language tokens in difference colors, this help developers to identify what kind of symbol it is from its coloring and font styling.
+How Dark Lavender theme help developer? Dark Lavender styling different category of language tokens in different colors, this help developers to identify what kind of symbol it is from its coloring and font styling.
 
 If you want to know more about Dark Lavender, please read this [acticle](https://dev.to/t7yang/dark-lavender-a-beautiful-and-useful-vscode-theme-41gh).
 

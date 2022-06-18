@@ -4,6 +4,12 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [4.2.2] - 2022-06-19
+
+### Changed
+
+- highlight a bit sidebar and editor boundary 
+
 ## [4.2.1]
 
 ### Changed

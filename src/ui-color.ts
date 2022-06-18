@@ -44,6 +44,7 @@ const uiColor: UiColor = {
   'activityBarBadge.background': md.deepPurple.A700,
   // sideBar
   'sideBar.background': vVar.bg1,
+  'sideBar.border': vVar.bg2,
   // editorGroupTabs
   'editorGroupHeader.tabsBackground': vVar.bg1,
   'tab.inactiveBackground': vVar.bg1,

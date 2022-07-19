@@ -14,12 +14,12 @@ const uiColor: UiColor = {
   // button
   'button.background': md.deepPurple.A700,
   'button.secondaryBackground': md.deepOrange.A700,
-  'checkbox.background': md.grey[900],
+  'checkbox.background': vVar.input,
   // dropdown
-  'dropdown.background': md.grey[900],
-  'dropdown.listBackground': md.grey[900],
+  'dropdown.background': vVar.input,
+  'dropdown.listBackground': vVar.input,
   // input
-  'input.background': md.grey[900],
+  'input.background': vVar.input,
   'inputOption.activeBackground': md.deepPurple.A700,
   'inputValidation.errorBackground': md.pink[900],
   'inputValidation.errorBorder': md.pink[900],
@@ -32,30 +32,29 @@ const uiColor: UiColor = {
   // progress
   'progressBar.background': md.deepPurple.A700,
   // listTree
-  'list.dropBackground': vVar.bg2,
+  'list.dropBackground': vVar.bgSm,
   'list.activeSelectionBackground': md.purple[900],
-  'list.hoverBackground': vVar.bg2,
-  'list.inactiveSelectionBackground': vVar.bg2,
+  'list.hoverBackground': vVar.bgLg,
+  'list.inactiveSelectionBackground': vVar.bgLg,
   // activityBar
-  'activityBar.background': vVar.bg1,
+  'activityBar.background': vVar.bgBs,
   'activityBar.inactiveForeground': md.deepPurple[50] + '66',
   'activityBar.foreground': md.deepPurple.A400,
   'activityBar.activeBorder': md.deepPurple.A400,
   'activityBarBadge.background': md.deepPurple.A700,
   // sideBar
-  'sideBar.background': vVar.bg1,
-  'sideBar.border': vVar.bg2,
+  'sideBar.background': vVar.bgXxs,
   // editorGroupTabs
-  'editorGroupHeader.tabsBackground': vVar.bg1,
-  'tab.inactiveBackground': vVar.bg1,
-  'tab.activeBackground': vVar.bg1,
+  'editorGroupHeader.tabsBackground': vVar.bgBs,
+  'tab.inactiveBackground': vVar.bgBs,
+  'tab.activeBackground': vVar.bgBs,
   'tab.activeBorder': md.purple.A400,
   'tab.activeForeground': md.grey[50],
   'tab.inactiveForeground': md.grey[500],
   'tab.activeModifiedBorder': md.amber[700],
   // editor
   'editor.foreground': md.blueGrey[100],
-  'editor.background': vVar.bg1,
+  'editor.background': vVar.bgBs,
   'editorLineNumber.foreground': md.blueGrey[800],
   'editorLineNumber.activeForeground': md.purple.A400,
   'editor.selectionBackground': opacity(md.lightBlue[700], 0.5),
@@ -94,7 +93,7 @@ const uiColor: UiColor = {
   'diffEditor.insertedTextBackground': md.lightGreen[500] + 33,
   'diffEditor.removedTextBackground': md.red[500] + 33,
   // editorWidget
-  'editorWidget.background': vVar.bg1,
+  'editorWidget.background': vVar.bgBs,
   'editorWidget.border': md.deepPurple.A700,
   'editorMarkerNavigationError.background': md.pink[700],
   'editorMarkerNavigationWarning.background': md.orange[700],
@@ -104,7 +103,7 @@ const uiColor: UiColor = {
   'peekViewEditor.background': md.deepPurple.A700 + '05',
   'peekViewResult.background': md.deepPurple.A700 + '05',
   'peekViewEditor.matchHighlightBackground': opacity(md.orange[500], 0.2),
-  'peekViewTitle.background': vVar.bg1,
+  'peekViewTitle.background': vVar.bgBs,
   // mergeConflict
   'merge.currentHeaderBackground': md.teal[500] + '99',
   'merge.currentContentBackground': md.teal[500] + '33',
@@ -113,18 +112,20 @@ const uiColor: UiColor = {
   // panel
   'panelTitle.activeBorder': md.deepPurple.A700,
   // statusBar
-  'statusBar.background': vVar.bg1,
+  'statusBar.background': vVar.bgBs,
   'statusBar.debuggingBackground': md.deepOrange[900],
-  'statusBar.noFolderBackground': vVar.bg1,
+  'statusBar.noFolderBackground': vVar.bgBs,
   'statusBarItem.prominentBackground': md.deepPurple.A700,
   'statusBarItem.remoteBackground': md.deepPurple.A700,
   // titleBar
-  'titleBar.activeBackground': vVar.bg1,
-  'titleBar.inactiveBackground': vVar.bg2,
+  'titleBar.activeBackground': vVar.bgBs,
+  'titleBar.inactiveBackground': vVar.bgXs,
   // menuBar
-  'menu.background': vVar.bg2,
+  'menu.background': vVar.bgSm,
   // notification
-  'notificationToast.border': md.deepPurple.A700,
+  'notificationCenterHeader.background': vVar.bgSm,
+  'notifications.background': vVar.bgSm,
+  'notifications.border': md.deepPurple.A700,
   // extension
   'extensionButton.prominentBackground': md.deepPurple.A700,
   'extensionButton.prominentHoverBackground': md.deepPurple.A200,

@@ -1,0 +1,5 @@
+{
+  "extends": "col-config/typescript/tsconfig.strict.json",
+  "compilerOptions": { "importHelpers": false },
+  "include": ["src"]
+}

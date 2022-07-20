@@ -7,7 +7,7 @@ const uiColor: UiColor = {
   focusBorder: md.deepPurple.A700,
   foreground: md.blueGrey[100],
   errorForeground: md.pink[700],
-  'icon.foreground': md.deepPurple.A100,
+  'icon.foreground': md.deepPurple.A200,
   // text
   'textLink.activeForeground': md.orange[500],
   'textLink.foreground': md.blue[500],

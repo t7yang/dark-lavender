@@ -47,8 +47,8 @@ const uiColor: UiColor = {
   // editorGroupTabs
   'editorGroupHeader.tabsBackground': vVar.bgBs,
   'tab.inactiveBackground': vVar.bgBs,
-  'tab.activeBackground': vVar.bgBs,
-  'tab.activeBorder': md.purple.A400,
+  'tab.activeBackground': vVar.bgXs,
+  'tab.activeBorder': md.deepPurple.A400,
   'tab.activeForeground': md.grey[50],
   'tab.inactiveForeground': md.grey[500],
   'tab.activeModifiedBorder': md.amber[700],

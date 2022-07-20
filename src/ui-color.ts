@@ -163,6 +163,8 @@ const uiColor: UiColor = {
   // Snippets colors
   'editor.snippetTabstopHighlightBackground': opacity(md.deepPurple.A400, 0.5),
   'editor.snippetFinalTabstopHighlightBorder': md.deepOrange.A400,
+  // Breadcrumbs colors
+  'breadcrumbPicker.background': vVar.bgSm,
 };
 
 export const variantUiColor = createVariantUiColor(uiColor, variant);

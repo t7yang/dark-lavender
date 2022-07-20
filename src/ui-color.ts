@@ -73,6 +73,8 @@ const uiColor: UiColor = {
   'editor.findRangeHighlightBorder': colors.transparency,
   'editor.lineHighlightBackground': opacity(md.blueGrey[700], 0.3),
   'editor.lineHighlightBorder': colors.transparency,
+  'editorUnicodeHighlight.background': opacity(md.amber[700], 0.1),
+  'editorUnicodeHighlight.border': opacity(md.amber[700], 0.4),
   'editorIndentGuide.background': md.blueGrey[800],
   'editorIndentGuide.activeBackground': md.blueGrey[400],
   'editorRuler.foreground': md.blueGrey[900] + '7F',

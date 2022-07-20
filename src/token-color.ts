@@ -235,7 +235,7 @@ export const tokenColors: TokenColor[] = [
       'variable.other.constant',
     ],
     settings: {
-      foreground: md.deepOrange.A200,
+      fontStyle: 'bold',
     },
   },
   {

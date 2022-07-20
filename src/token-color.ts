@@ -167,14 +167,14 @@ export const tokenColors: TokenColor[] = [
       'support.other.parenthesis.regexp',
     ],
     settings: {
-      foreground: md.pink.A200,
+      foreground: md.lightBlue.A200,
     },
   },
   {
     name: 'Regular Expression Quantifier',
     scope: 'keyword.operator.quantifier.regexp',
     settings: {
-      foreground: md.orange.A200,
+      foreground: md.pink[200],
     },
   },
   {
@@ -188,7 +188,7 @@ export const tokenColors: TokenColor[] = [
       'constant.other.character-class.set.regexp',
     ],
     settings: {
-      foreground: md.lime.A200,
+      foreground: md.deepOrange[200],
     },
   },
   {

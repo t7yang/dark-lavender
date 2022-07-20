@@ -122,6 +122,8 @@ const uiColor: UiColor = {
   'titleBar.inactiveBackground': vVar.bgXs,
   // menuBar
   'menu.background': vVar.bgSm,
+  // Command Center colors
+  'commandCenter.border': md.deepPurple.A700,
   // notification
   'notificationCenterHeader.background': vVar.bgSm,
   'notifications.background': vVar.bgSm,

@@ -150,10 +150,10 @@ const uiColor: UiColor = {
   'gitDecoration.addedResourceForeground': md.lightGreen[500],
   'gitDecoration.modifiedResourceForeground': md.lightBlue[500],
   'gitDecoration.stageModifiedResourceForeground': md.amber[500],
-  'gitDecoration.deletedResourceForeground': md.red[500],
-  'gitDecoration.stageDeletedResourceForeground': md.red[500],
+  'gitDecoration.deletedResourceForeground': md.pink[500],
+  'gitDecoration.stageDeletedResourceForeground': md.pink[500],
   'gitDecoration.untrackedResourceForeground': md.lightGreen[500],
-  'gitDecoration.conflictingResourceForeground': md.red[500],
+  'gitDecoration.conflictingResourceForeground': md.pink[500],
   'gitDecoration.submoduleResourceForeground': md.lightBlue[200],
   // settingsEditor
   'settings.modifiedItemIndicator': md.amber[900],

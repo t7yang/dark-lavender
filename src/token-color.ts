@@ -241,6 +241,7 @@ export const tokenColors: TokenColor[] = [
   {
     name: 'Builtin Variable',
     scope: [
+      'constant.character',
       'constant.language',
       'source.php variable.language.this punctuation.definition.variable',
       'variable.language',

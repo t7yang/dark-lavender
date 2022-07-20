@@ -157,6 +157,7 @@ const uiColor: UiColor = {
   'gitDecoration.submoduleResourceForeground': md.lightBlue[200],
   // settingsEditor
   'settings.modifiedItemIndicator': md.amber[900],
+  'settings.focusedRowBorder': md.deepPurple.A700,
 };
 
 export const variantUiColor = createVariantUiColor(uiColor, variant);

@@ -1,0 +1,21 @@
+@import url('bluish.css') print, screen;
+@import 'common.css' screen;
+@import url('landscape.css') screen and (orientation: landscape);
+
+@supports (display: flex) {
+  @media screen and (min-width: 900px) {
+    * {
+      box-sizing: border-box;
+    }
+
+    button:hover + span::after {
+      background-color: rgba();
+    }
+  }
+}
+
+@layer default {
+  audio[controls] {
+    display: block;
+  }
+}

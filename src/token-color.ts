@@ -67,7 +67,7 @@ export const tokenColors: TokenColor[] = [
   },
   {
     name: 'Operators',
-    scope: ['keyword.operator', 'keyword.other.unit'],
+    scope: ['keyword.operator'],
     settings: {
       fontStyle: '',
       foreground: md.lightGreen.A400,
@@ -243,6 +243,7 @@ export const tokenColors: TokenColor[] = [
     scope: [
       'constant.character',
       'constant.language',
+      'keyword.other.unit',
       'source.php variable.language.this punctuation.definition.variable',
       'variable.language',
       'variable.parameter.function.language.special',

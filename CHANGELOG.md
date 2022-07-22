@@ -4,6 +4,27 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [5.0.0] - 2022-07-23
+
+### Added
+
+- improve settings editor set `settings.focusedRowBorder` color
+- support "command center colors"
+- support "snippets colors"
+- support "breadcrumbs colors"
+- support `editorUnicodeHighlight`
+- `readonly` variables, properties, ... are now styled in bold
+
+### Changed
+
+- greatly improve the background black colors
+- deeper icon color
+- deeper active tab border and highlight active tab background
+- replace red with pink for git colors
+- adjust regex colors
+- add more "Builtin Variable"
+- move `keyword.other.unit` to "Builtin Variable"
+
 ## [4.2.2] - 2022-06-19
 
 ### Changed

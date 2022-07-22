@@ -1,19 +1,39 @@
 # Dark Lavender
 
-Dark Lavender is a beautiful dark theme with material design colors for Visual Studio Code not just for eye candy but very useful for developer especially for novice programmer.
+Dark Lavender is a beautiful dark theme with material design colors for Visual Studio Code not just for eye candy but very useful for developers, especially novice programmers.
 
-How Dark Lavender theme help developer? Dark Lavender styling different category of language tokens in different colors, this help developers to identify what kind of symbol it is from its coloring and font styling.
+## Key Features
 
-If you want to know more about Dark Lavender, please read this [acticle](https://dev.to/t7yang/dark-lavender-a-beautiful-and-useful-vscode-theme-41gh).
+- Beautiful dark theme with Material Design Color Palette.
+- Meaningful color and font style for language tokens (see below).
+- Support many popular languages.
+- Keep the theme up-to-date, and also support many sections like command center, git, and terminal, this makes the whole UI design consistent.
 
-Here is some of the styling rules, to preview the theme design see the code snippet image below:
+## Screenshot
 
-- Built in keyword, variable, function, class... with font style italic, if you see something dispaly in italic, just do not re-assgin or change it value.
-- Keywords not for declaration (`for`, `while`, `import`) are color as purple.
-- Keywords for declaration (`var`, `class`, `extends`) are color as red.
-- Functions value are color as teal.
-- Built in and custom types are color as yellow.
-- Parameter and variable are color as orange, deeper if the variable is readonly.
+![dark-lavender-screenshot](https://raw.githubusercontent.com/t7yang/dark-lavender/master/images/screenshot.png)
+
+## Customize
+
+If you love this theme, but just want to do a little tweak?
+
+- [Customizing a Color Theme](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme)
+- [VSLook](https://marketplace.visualstudio.com/items?itemName=sudoaugustin.vslook)
+
+## Theme can help
+
+Dark Lavender give each group of token a significant color or font style to help you recognize them.
+
+- Built-in keywords, variables, function, class, ... are styled in italic.
+- Readonly variable, property, parameter, ... are styled in bold (since v5.0.0).
+- Keywords for not declaration (`for`, `while`, `import`, ...) are colored in purple.
+- Keywords for declaration (`var`, `class`, `extends) are colored in red.
+- Function is colored in teal.
+- Built-in and custom types are colored in yellow.
+- Parameter and variable are colored in orange.
+- ...
+
+If you want to know more about Dark Lavender, please read this [article](https://dev.to/t7yang/dark-lavender-a-beautiful-and-useful-vscode-theme-41gh).
 
 To emphasize the effect of italic, I use Victor Mono font. If you don't like curly italic font, consider Fira Code and Jetbrain Mono. Check the Fonts section below.
 
@@ -24,11 +44,7 @@ Other worth noting features:
 - Beautiful colors based on Material Design.
 - Rainbow colors for JSON depend on the level.
 - Support popular languages based on Github stats.
-- Support 3 kinds of background color from black to cool grey.
-
-## Screenshot
-
-![dark-lavender-screenshot](https://raw.githubusercontent.com/t7yang/dark-lavender/master/images/screenshot.png)
+- Support 3 kinds of background colors from black to cool grey.
 
 ## Special Thanks
 
@@ -48,6 +64,6 @@ Other worth noting features:
 
 ### Fonts
 
+- [Recursive Mono](https://www.recursive.design/) - most recommended.
 - [FiraCode](https://github.com/tonsky/FiraCode)
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono)
-- [Victor Mono](https://rubjo.github.io/victor-mono/)

@@ -4,7 +4,17 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [5.0.1] - 2022-07-24
+
+### Fixed
+
+- constant propery should be blue color
+
 ## [5.0.0] - 2022-07-23
+
+Since v5.0.0, the readonly variable and property not longer have deeper color.
+Instead, they styled in bold.
+So, now you can tell every readonly symbol from their font-style.
 
 ### Added
 

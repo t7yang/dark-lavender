@@ -278,6 +278,7 @@ export const tokenColors: TokenColor[] = [
       'support.variable.property',
       'variable.graphql',
       'variable.object.property',
+      'variable.other.constant.property',
       'variable.other.member',
       'variable.other.object.property',
       'variable.other.property',

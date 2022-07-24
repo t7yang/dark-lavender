@@ -4,6 +4,12 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [5.0.2] - 2022-07-24
+
+### Fixed
+
+- add another missing property `support.constant.property`
+
 ## [5.0.1] - 2022-07-24
 
 ### Fixed

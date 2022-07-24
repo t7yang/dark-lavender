@@ -272,6 +272,7 @@ export const tokenColors: TokenColor[] = [
       'punctuation.definition.variable.ruby',
       'string.unquoted.label.js',
       'source.python meta.attribute',
+      'support.constant.property',
       'support.type.map.key',
       'support.type.property-name',
       'support.type.vendored.property-name',

@@ -27,10 +27,10 @@ Dark Lavender give each group of token a significant color or font style to help
 - Built-in keywords, variables, function, class, ... are styled in italic.
 - Readonly variable, property, parameter, ... are styled in bold (since v5.0.0).
 - Keywords for not declaration (`for`, `while`, `import`, ...) are colored in purple.
-- Keywords for declaration (`var`, `class`, `extends) are colored in red.
-- Function is colored in teal.
+- Keywords for declaration (`var`, `class`, `extends`) are colored in red.
+- Functions are colored in teal.
 - Built-in and custom types are colored in yellow.
-- Parameter and variable are colored in orange.
+- Parameters and variables are colored in orange.
 - ...
 
 If you want to know more about Dark Lavender, please read this [article](https://dev.to/t7yang/dark-lavender-a-beautiful-and-useful-vscode-theme-41gh).

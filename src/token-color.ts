@@ -175,28 +175,34 @@ export const tokenColors: TokenColor[] = [
       'support.other.parenthesis.regexp',
     ],
     settings: {
-      foreground: md.lightBlue.A200,
+      foreground: md.indigo.A200,
     },
   },
   {
     name: 'Regular Expression Quantifier',
-    scope: 'keyword.operator.quantifier.regexp',
+    scope: ['keyword.operator.quantifier.regexp'],
     settings: {
-      foreground: md.pink[200],
+      foreground: md.pink[100],
     },
   },
   {
-    name: 'Escape Characters',
+    name: 'Regular Expression Anchor',
+    scope: ['keyword.control.anchor.regexp'],
+    settings: {
+      foreground: md.purple.A200,
+    },
+  },
+  {
+    name: 'Regular Expression Special Characters',
     scope: [
       'constant.character.character-class.regexp',
-      'constant.character.escape',
       'constant.character.set.regexp',
       'constant.other.character-class',
       'constant.other.character-class.regexp',
       'constant.other.character-class.set.regexp',
     ],
     settings: {
-      foreground: md.deepOrange[200],
+      foreground: md.red.A200,
     },
   },
   {

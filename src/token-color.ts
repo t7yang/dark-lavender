@@ -62,7 +62,7 @@ export const tokenColors: TokenColor[] = [
     ],
     settings: {
       fontStyle: '',
-      foreground: md.indigo[100],
+      foreground: md.indigo.A100,
     },
   },
   {

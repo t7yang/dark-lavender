@@ -153,7 +153,14 @@ export const tokenColors: TokenColor[] = [
       'support.function.variable.quoted.single.elixir',
     ],
     settings: {
-      foreground: md.lightGreen[100],
+      foreground: md.green[100],
+    },
+  },
+  {
+    name: 'Escape Characters',
+    scope: ['constant.character.escape'],
+    settings: {
+      foreground: md.cyan.A200,
     },
   },
   {

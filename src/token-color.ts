@@ -200,7 +200,7 @@ export const tokenColors: TokenColor[] = [
       'variable.parameter',
     ],
     settings: {
-      foreground: md.orange.A200,
+      foreground: md.deepOrange.A200,
     },
   },
   {

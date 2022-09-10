@@ -214,6 +214,7 @@ export const tokenColors: TokenColor[] = [
       'string source.groovy',
       'source.cpp meta.bracket.square.access',
       'source.cpp meta.parens',
+      'source.python constant.other.caps',
       'support.other',
       'support.type.object',
       'variable',
@@ -243,7 +244,7 @@ export const tokenColors: TokenColor[] = [
     scope: [
       'constant.character',
       'constant.language',
-      'keyword.other.unit',
+      'constant.other',
       'source.php variable.language.this punctuation.definition.variable',
       'support.constant',
       'support.constant.property-value.css',

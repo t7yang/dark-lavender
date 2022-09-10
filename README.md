@@ -20,6 +20,18 @@ If you love this theme, but just want to do a little tweak?
 - [Customizing a Color Theme](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme)
 - [VSLook](https://marketplace.visualstudio.com/items?itemName=sudoaugustin.vslook)
 
+Said if you want a lighter editor background color, you can add this into your VSCode setting file:
+
+```json
+{
+  "workbench.colorCustomizations": {
+    "[Dark Lavender]": {
+      "editor.background": "#263238"
+    }
+  }
+}
+```
+
 ## Theme can help
 
 Dark Lavender give each group of token a significant color or font style to help you recognize them.

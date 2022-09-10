@@ -30,7 +30,7 @@ export class Circle extends Shape {
 }
 
 (function main() {
-  const REGEX = /\d{2}[0-9]\.21/;
+  const REGEX = /^\d\t{2}[0-9]+(\.21?).$/;
   const shapes: Shape[] = [new Rectangle(9, 4), new Circle(3), new Circle(7)];
   let sumArea = 0;
 
@@ -42,6 +42,8 @@ export class Circle extends Shape {
 
   assert(sumArea === 218.21);
   assert(REGEX.test('218.21') === true);
+
+  console.log(`The sum of the shapes is \`${sumArea}\``);
 
   return { shapes, sum: sumArea };
 })();

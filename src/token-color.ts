@@ -67,7 +67,7 @@ export const tokenColors: TokenColor[] = [
   },
   {
     name: 'Operators',
-    scope: ['keyword.operator'],
+    scope: ['keyword.operator', 'keyword.other.unit'],
     settings: {
       fontStyle: '',
       foreground: md.lightGreen.A400,

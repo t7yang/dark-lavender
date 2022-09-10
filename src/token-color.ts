@@ -138,7 +138,7 @@ export const tokenColors: TokenColor[] = [
   },
   {
     name: 'Integers, Float',
-    scope: ['constant.numeric', 'variable.other.anonymous.elixir'],
+    scope: ['constant.numeric', 'constant.character.numeric', 'variable.other.anonymous.elixir'],
     settings: {
       foreground: md.pink[100],
     },
@@ -146,6 +146,7 @@ export const tokenColors: TokenColor[] = [
   {
     name: 'Strings, Inherited Class',
     scope: [
+      'constant.character',
       'storage.type.string',
       'string',
       'support.constant.property-value',

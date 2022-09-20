@@ -20,7 +20,7 @@ If you love this theme, but just want to do a little tweak?
 - [Customizing a Color Theme](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme)
 - [VSLook](https://marketplace.visualstudio.com/items?itemName=sudoaugustin.vslook)
 
-Said if you want a lighter editor background color, you can add this into your VSCode setting file:
+Said if you want a lighter editor background color, you can add this to your VSCode setting file:
 
 ```json
 {
@@ -42,14 +42,14 @@ Dark Lavender give each group of token a significant color or font style to help
 - Keywords for declaration (`var`, `class`, `extends`) are colored in red.
 - Functions are colored in teal.
 - Built-in and custom types are colored in yellow.
-- Parameters and variables are colored in orange.
+- Variables are colored in orange, parameters have deeper orange.
 - ...
 
 If you want to know more about Dark Lavender, please read this [article](https://dev.to/t7yang/dark-lavender-a-beautiful-and-useful-vscode-theme-41gh).
 
 To emphasize the effect of italic, I use Victor Mono font. If you don't like curly italic font, consider Fira Code and Jetbrain Mono. Check the Fonts section below.
 
-![dark-lavender-typescript](https://raw.githubusercontent.com/t7yang/dark-lavender/master/images/typescript.jpg)
+![dark-lavender-typescript](https://raw.githubusercontent.com/t7yang/dark-lavender/master/images/typescript.png)
 
 Other worth noting features:
 
@@ -61,7 +61,7 @@ Other worth noting features:
 ## Special Thanks
 
 - [material-colors-ts](https://github.com/harveyconnor/material-colors-ts)
-- [VSCode Typed Theme Generator](https://github.com/t7yang/vscode-typed-theme-generator) - create VSCode theme with TypeScript.
+- [VSCode Typed Theme Generator](https://github.com/t7yang/vscode-typed-theme-generator) - create a VSCode theme with TypeScript.
 
 ## References
 

@@ -4,6 +4,24 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [5.1.0] - 2022-07-24
+
+### Added
+
+- completely redesign for regular expression color (better distinguish for normal/escape string, quantity, group, ...)
+
+### Changed
+
+- parameters color from orange to deep orange (now developer can visually distinguish parameters and variables)
+- improve number token
+- improve string and escape string color
+- change unit keywords back to light green
+- deeper punctuation color
+
+### Fixed
+
+- colorize Python variables correctly
+
 ## [5.0.2] - 2022-07-24
 
 ### Fixed

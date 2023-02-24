@@ -4,6 +4,13 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [6.0.0] - 2023-02-25
+
+### Added
+
+- add TailwindCSS versions
+- support new UI tokens (list, minimap, editor, gutter, diff editor, status bar)
+
 ## [5.1.0] - 2022-07-24
 
 ### Added

@@ -35,6 +35,8 @@ const uiColor: UiColor = {
   'list.activeSelectionBackground': Var.purple900,
   'list.hoverBackground': Var.bgLg,
   'list.inactiveSelectionBackground': Var.bgLg,
+  'list.errorForeground': Var.pink500,
+  'list.warningForeground': Var.orange500,
   // activityBar
   'activityBar.background': Var.bgBs,
   'activityBar.inactiveForeground': opacity(Var.deepPurple50, 0.4),
@@ -43,6 +45,10 @@ const uiColor: UiColor = {
   'activityBarBadge.background': Var.deepPurpleA700,
   // sideBar
   'sideBar.background': Var.bgXxs,
+  // Minimap
+  'minimapSlider.background': opacity(Var.grey50, 0.2),
+  'minimapSlider.hoverBackground': opacity(Var.grey50, 0.3),
+  'minimapSlider.activeBackground': opacity(Var.grey50, 0.3),
   // editorGroupTabs
   'editorGroupHeader.tabsBackground': Var.bgBs,
   'tab.inactiveBackground': Var.bgBs,
@@ -87,9 +93,23 @@ const uiColor: UiColor = {
   'editorOverviewRuler.errorForeground': Var.pink700,
   'editorOverviewRuler.warningForeground': Var.orange700,
   'editorOverviewRuler.infoForeground': Var.blue700,
+  'editorError.foreground': Var.pink700,
+  'editorWarning.foreground': Var.orange700,
+  'editorInfo.foreground': Var.blue700,
+  'editorHint.foreground': Var.yellow700,
+  'problemsErrorIcon.foreground': Var.pink700,
+  'problemsWarningIcon.foreground': Var.orange700,
+  'problemsInfoIcon.foreground': Var.blue700,
+  'editorGutter.modifiedBackground': Var.lightBlue700,
+  'editorGutter.addedBackground': Var.lightGreen700,
+  'editorGutter.deletedBackground': Var.red700,
   // diffEditor
   'diffEditor.insertedTextBackground': opacity(Var.lightGreen700, 0.2),
   'diffEditor.removedTextBackground': opacity(Var.red700, 0.2),
+  'diffEditor.insertedLineBackground': opacity(Var.lightGreen700, 0.15),
+  'diffEditor.removedLineBackground': opacity(Var.red700, 0.15),
+  'diffEditorGutter.insertedLineBackground': opacity(Var.lightGreen700, 0.1),
+  'diffEditorGutter.removedLineBackground': opacity(Var.red700, 0.1),
   // editorWidget
   'editorWidget.background': Var.bgBs,
   'editorWidget.border': Var.deepPurpleA700,
@@ -115,6 +135,8 @@ const uiColor: UiColor = {
   'statusBar.noFolderBackground': Var.bgBs,
   'statusBarItem.prominentBackground': Var.deepPurpleA700,
   'statusBarItem.remoteBackground': Var.deepPurpleA700,
+  'statusBarItem.errorBackground': Var.pink700,
+  'statusBarItem.warningBackground': Var.orange700,
   // titleBar
   'titleBar.activeBackground': Var.bgBs,
   'titleBar.inactiveBackground': Var.bgXs,

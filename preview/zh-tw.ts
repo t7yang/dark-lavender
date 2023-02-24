@@ -17,8 +17,11 @@ parseInt(''); // 函數 -> 藍綠
 
 function main(params: string) {
   //          ^^^^^^ 參數比變數顏色更深
+  var params = '123';
+  //  ^^^^^^ 透過顏色可以察覺重複宣告了參數
+
   const readonly = 'readonly';
-  //    ^^^^^^^^ 唯讀 -> 粗體
+  //    ^^^^^^^^ [唯讀][變數] -> [粗體][橘色]
   Node.ATTRIBUTE_NODE;
   //   ^^^^^^^^^^^^^^ [平台內建][唯讀][屬性] -> [斜體][粗體][藍]
 }

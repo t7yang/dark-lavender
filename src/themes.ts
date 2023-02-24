@@ -1,6 +1,6 @@
 import { createVsCodeTheme, CreateVsCodeThemeConfig, UiColor, VsCodeThemeMeta } from 'vscode-typed-theme-generator';
 import { semanticTokenColors } from './semantic-color';
-import { tokenColors } from './token-color';
+import { variantTokenColor } from './token-color';
 import { variantUiColor } from './ui-color';
 
 type VariantKey = keyof typeof variantUiColor;
@@ -9,6 +9,8 @@ const names: Record<VariantKey, string> = {
   default: 'Dark Lavender',
   black: 'Dark Lavender (Black)',
   soft: 'Dark Lavender (Soft)',
+  tw: 'Dark Lavender (Tailwind)',
+  tws: 'Dark Lavender (Tailwind Soft)',
 };
 
 const config: CreateVsCodeThemeConfig = {
@@ -25,7 +27,7 @@ const config: CreateVsCodeThemeConfig = {
         semanticHighlighting: true,
         semanticTokenColors,
         colors: uiColor,
-        tokenColors,
+        tokenColors: variantTokenColor[variant],
       },
     };
   }),

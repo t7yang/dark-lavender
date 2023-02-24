@@ -1,12 +1,12 @@
-import md from 'material-colors-ts';
-import { TokenColor } from 'vscode-typed-theme-generator';
+import { createVariantTokenColors, TokenColor } from 'vscode-typed-theme-generator';
+import { Var, variant } from './color';
 
 export const tokenColors: TokenColor[] = [
   {
     name: 'Comments',
     scope: ['comment', 'punctuation.definition.comment', 'string.comment'],
     settings: {
-      foreground: md.blueGrey[500],
+      foreground: Var.blueGrey500,
     },
   },
   {
@@ -62,7 +62,7 @@ export const tokenColors: TokenColor[] = [
     ],
     settings: {
       fontStyle: '',
-      foreground: md.indigo.A100,
+      foreground: Var.indigoA100,
     },
   },
   {
@@ -70,7 +70,7 @@ export const tokenColors: TokenColor[] = [
     scope: ['keyword.operator', 'keyword.other.unit'],
     settings: {
       fontStyle: '',
-      foreground: md.lightGreen.A400,
+      foreground: Var.lightGreenA400,
     },
   },
   {
@@ -78,7 +78,7 @@ export const tokenColors: TokenColor[] = [
     scope: ['keyword', 'keyword.control', 'keyword.other.special-method.elixir', 'meta.control.flow'],
     settings: {
       fontStyle: 'italic',
-      foreground: md.deepPurple.A200,
+      foreground: Var.deepPurpleA200,
     },
   },
   {
@@ -93,7 +93,7 @@ export const tokenColors: TokenColor[] = [
       'storage.type.struct',
     ],
     settings: {
-      foreground: md.pink.A200,
+      foreground: Var.pinkA200,
     },
   },
   {
@@ -110,7 +110,7 @@ export const tokenColors: TokenColor[] = [
       'variable.function',
     ],
     settings: {
-      foreground: md.teal.A200,
+      foreground: Var.tealA200,
     },
   },
   {
@@ -133,14 +133,14 @@ export const tokenColors: TokenColor[] = [
       'variable.other.constant.elixir',
     ],
     settings: {
-      foreground: md.yellow.A200,
+      foreground: Var.yellowA200,
     },
   },
   {
     name: 'Integers, Float',
     scope: ['constant.numeric', 'constant.character.numeric', 'variable.other.anonymous.elixir'],
     settings: {
-      foreground: md.pink[100],
+      foreground: Var.pink100,
     },
   },
   {
@@ -153,14 +153,14 @@ export const tokenColors: TokenColor[] = [
       'support.function.variable.quoted.single.elixir',
     ],
     settings: {
-      foreground: md.green[100],
+      foreground: Var.green100,
     },
   },
   {
     name: 'Escape Characters',
     scope: ['constant.character.escape'],
     settings: {
-      foreground: md.cyan.A200,
+      foreground: Var.cyanA200,
     },
   },
   {
@@ -175,21 +175,21 @@ export const tokenColors: TokenColor[] = [
       'support.other.parenthesis.regexp',
     ],
     settings: {
-      foreground: md.indigo.A200,
+      foreground: Var.indigoA200,
     },
   },
   {
     name: 'Regular Expression Quantifier',
     scope: ['keyword.operator.quantifier.regexp'],
     settings: {
-      foreground: md.pink[100],
+      foreground: Var.pink100,
     },
   },
   {
     name: 'Regular Expression Anchor',
     scope: ['keyword.control.anchor.regexp'],
     settings: {
-      foreground: md.purple.A200,
+      foreground: Var.purpleA200,
     },
   },
   {
@@ -202,7 +202,7 @@ export const tokenColors: TokenColor[] = [
       'constant.other.character-class.set.regexp',
     ],
     settings: {
-      foreground: md.red.A200,
+      foreground: Var.redA200,
     },
   },
   {
@@ -214,7 +214,7 @@ export const tokenColors: TokenColor[] = [
       'variable.parameter',
     ],
     settings: {
-      foreground: md.deepOrange.A200,
+      foreground: Var.deepOrangeA200,
     },
   },
   {
@@ -234,7 +234,7 @@ export const tokenColors: TokenColor[] = [
       'variable',
     ],
     settings: {
-      foreground: md.orange.A200,
+      foreground: Var.orangeA200,
     },
   },
   {
@@ -267,7 +267,7 @@ export const tokenColors: TokenColor[] = [
       'variable.parameter.function.language.special',
     ],
     settings: {
-      foreground: md.red.A200,
+      foreground: Var.redA200,
     },
   },
   {
@@ -302,7 +302,7 @@ export const tokenColors: TokenColor[] = [
       'variable.other.readwrite.instance',
     ],
     settings: {
-      foreground: md.lightBlue.A200,
+      foreground: Var.lightBlueA200,
     },
   },
   {
@@ -316,21 +316,21 @@ export const tokenColors: TokenColor[] = [
     name: 'XML/HTML Tags',
     scope: ['entity.name.tag'],
     settings: {
-      foreground: md.deepPurple.A200,
+      foreground: Var.deepPurpleA200,
     },
   },
   {
     name: 'Attribute IDs',
     scope: ['entity.other.attribute-name', 'meta.attribute', 'string.unquoted.alias.graphql'],
     settings: {
-      foreground: md.pink.A200,
+      foreground: Var.pinkA200,
     },
   },
   {
     name: 'Css ID',
     scope: ['entity.other.attribute-name.id'],
     settings: {
-      foreground: md.orange.A200,
+      foreground: Var.orangeA200,
     },
   },
   {
@@ -338,14 +338,14 @@ export const tokenColors: TokenColor[] = [
     scope: ['entity.name.section', 'markup.heading', 'punctuation.definition.heading'],
     settings: {
       fontStyle: '',
-      foreground: md.purple.A200,
+      foreground: Var.purpleA200,
     },
   },
   {
     name: 'Markup - Text',
     scope: ['meta.paragraph'],
     settings: {
-      foreground: md.blueGrey[100],
+      foreground: Var.blueGrey100,
     },
   },
   {
@@ -353,7 +353,7 @@ export const tokenColors: TokenColor[] = [
     scope: ['markup.quote meta.paragraph'],
     settings: {
       fontStyle: 'italic',
-      foreground: md.blue[100],
+      foreground: Var.blue100,
     },
   },
   {
@@ -361,7 +361,7 @@ export const tokenColors: TokenColor[] = [
     scope: ['markup.italic', 'punctuation.definition.italic'],
     settings: {
       fontStyle: 'italic',
-      foreground: md.amber[100],
+      foreground: Var.yellow100,
     },
   },
   {
@@ -369,7 +369,7 @@ export const tokenColors: TokenColor[] = [
     scope: ['markup.bold', 'punctuation.definition.bold'],
     settings: {
       fontStyle: 'bold',
-      foreground: md.deepOrange[100],
+      foreground: Var.deepOrange100,
     },
   },
   {
@@ -384,7 +384,7 @@ export const tokenColors: TokenColor[] = [
     ],
     settings: {
       fontStyle: 'bold',
-      foreground: md.deepOrange[100],
+      foreground: Var.deepOrange100,
     },
   },
   {
@@ -392,112 +392,112 @@ export const tokenColors: TokenColor[] = [
     scope: ['markup.underline'],
     settings: {
       fontStyle: 'underline',
-      foreground: md.deepOrange[100],
+      foreground: Var.deepOrange100,
     },
   },
   {
     name: 'Markup - Code',
     scope: ['markup.fenced_code.block', 'markup.inline.raw', 'markup.raw.block', 'markup.raw.inline'],
     settings: {
-      foreground: md.orange[500],
+      foreground: Var.orange500,
     },
   },
   {
     name: 'Markup - Inserted',
     scope: ['markup.inserted'],
     settings: {
-      foreground: md.green[500],
+      foreground: Var.green500,
     },
   },
   {
     name: 'Markup - Deleted',
     scope: ['markup.deleted'],
     settings: {
-      foreground: md.pink[500],
+      foreground: Var.pink500,
     },
   },
   {
     name: 'Markup - Changed',
     scope: ['markup.changed'],
     settings: {
-      foreground: md.indigo[500],
+      foreground: Var.indigo500,
     },
   },
   {
     name: 'Markup - Link Image',
     scope: ['markup.underline.link.image'],
     settings: {
-      foreground: md.green[500],
+      foreground: Var.green500,
     },
   },
   {
     name: 'Markup - Link Url',
     scope: ['meta.link'],
     settings: {
-      foreground: md.indigo[500],
+      foreground: Var.indigo500,
     },
   },
   {
     name: 'Markup - Separator',
     scope: ['meta.separator'],
     settings: {
-      foreground: md.blueGrey[300],
+      foreground: Var.blueGrey300,
     },
   },
   {
     name: 'Markup - Embedded',
     scope: ['variable.interpolation'],
     settings: {
-      foreground: md.indigo[500],
+      foreground: Var.indigo500,
     },
   },
   {
     name: 'Illegal',
     scope: ['invalid', 'invalid.illegal'],
     settings: {
-      foreground: md.pink[800],
+      foreground: Var.pink700,
     },
   },
   {
     name: 'BASH: Command Substitution',
     scope: ['string.interpolated.dollar.shell'],
     settings: {
-      foreground: md.pink[500],
+      foreground: Var.pink500,
     },
   },
   {
     name: 'BASH: Math Operation',
     scope: ['string.other.math.shell'],
     settings: {
-      foreground: md.indigo[500],
+      foreground: Var.indigo500,
     },
   },
   {
     name: 'CSV Rainbow 4',
     scope: ['comment.rainbow4'],
     settings: {
-      foreground: md.orange[500],
+      foreground: Var.orange500,
     },
   },
   {
     name: 'CSV Rainbow 9',
     scope: ['markup.bold.rainbow9'],
     settings: {
-      foreground: md.deepPurple[500],
+      foreground: Var.deepPurple500,
     },
   },
   {
     name: 'CSV Rainbow 10',
     scope: ['invalid.rainbow10'],
     settings: {
-      foreground: md.deepOrange[500],
+      foreground: Var.deepOrange500,
     },
   },
   {
     name: 'JSON Key - Level 0',
     scope: ['source.json meta.structure.dictionary.json support.type.property-name.json'],
     settings: {
-      foreground: md.orange.A100,
+      foreground: Var.orange100,
     },
   },
   {
@@ -506,7 +506,7 @@ export const tokenColors: TokenColor[] = [
       'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
     ],
     settings: {
-      foreground: md.yellow.A100,
+      foreground: Var.yellowA100,
     },
   },
   {
@@ -515,7 +515,7 @@ export const tokenColors: TokenColor[] = [
       'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
     ],
     settings: {
-      foreground: md.lightGreen.A100,
+      foreground: Var.lightGreenA100,
     },
   },
   {
@@ -524,7 +524,7 @@ export const tokenColors: TokenColor[] = [
       'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
     ],
     settings: {
-      foreground: md.teal.A100,
+      foreground: Var.tealA100,
     },
   },
   {
@@ -533,7 +533,7 @@ export const tokenColors: TokenColor[] = [
       'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
     ],
     settings: {
-      foreground: md.lightBlue.A100,
+      foreground: Var.lightBlueA100,
     },
   },
   {
@@ -542,7 +542,7 @@ export const tokenColors: TokenColor[] = [
       'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
     ],
     settings: {
-      foreground: md.indigo.A100,
+      foreground: Var.indigoA100,
     },
   },
   {
@@ -551,7 +551,7 @@ export const tokenColors: TokenColor[] = [
       'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
     ],
     settings: {
-      foreground: md.purple.A100,
+      foreground: Var.purpleA100,
     },
   },
   {
@@ -560,7 +560,7 @@ export const tokenColors: TokenColor[] = [
       'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
     ],
     settings: {
-      foreground: md.pink.A100,
+      foreground: Var.pinkA100,
     },
   },
   {
@@ -569,7 +569,9 @@ export const tokenColors: TokenColor[] = [
       'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
     ],
     settings: {
-      foreground: md.orange.A100,
+      foreground: Var.orangeA100,
     },
   },
 ];
+
+export const variantTokenColor = createVariantTokenColors(tokenColors, variant);

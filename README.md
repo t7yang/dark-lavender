@@ -68,6 +68,7 @@ Other worth noting features:
 ### Colors and VSCode Theme
 
 - [Material Design Color](https://www.materialui.co/colors)
+- [TailwindCSS Color Palette](https://tailwindcss.com/docs/customizing-colors)
 - [VSCode Theme Color](https://code.visualstudio.com/api/references/theme-color)
 - [Semantic Highlight Guide](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide)
 - [Semantic Highlighting Overview](https://github.com/microsoft/vscode/wiki/Semantic-Highlighting-Overview)

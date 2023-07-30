@@ -160,6 +160,9 @@ const uiColor: UiColor = {
   'mergeEditor.conflict.unhandled.minimapOverViewRuler': Var.orange500,
   // panel
   'panelTitle.activeBorder': Var.deepPurpleA700,
+  'panelInput.border': Var.deepPurpleA700,
+  'panelSection.border': Var.deepPurpleA700,
+  'panelSectionHeader.border': Var.deepPurpleA700,
   // statusBar
   'statusBar.background': Var.bgBs,
   'statusBar.debuggingBackground': Var.deepOrange900,
@@ -186,6 +189,8 @@ const uiColor: UiColor = {
   'extensionIcon.verifiedForeground': Var.blue500,
   'extensionIcon.preReleaseForeground': Var.orange500,
   'extensionIcon.sponsorForeground': Var.yellow500,
+  // Keybinding label colors
+  'keybindingLabel.background': Var.deepPurpleA700,
   // integratedTerminal
   'terminal.ansiBlack': Var.blueGrey900,
   'terminal.ansiBlue': Var.blue900,

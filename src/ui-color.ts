@@ -111,6 +111,7 @@ const uiColor: UiColor = {
   'diffEditor.removedLineBackground': opacity(Var.red700, 0.2),
   'diffEditorGutter.insertedLineBackground': opacity(Var.green700, 0.1),
   'diffEditorGutter.removedLineBackground': opacity(Var.red700, 0.1),
+  'diffEditor.diagonalFill': opacity(Var.blueGrey700, 0.5),
   // editorWidget
   'editorWidget.background': Var.bgBs,
   'editorWidget.border': Var.deepPurpleA700,
@@ -124,10 +125,20 @@ const uiColor: UiColor = {
   'peekViewEditor.matchHighlightBackground': opacity(Var.orange500, 0.2),
   'peekViewTitle.background': Var.bgBs,
   // mergeConflict
-  'merge.currentHeaderBackground': opacity(Var.teal500, 0.6),
-  'merge.currentContentBackground': opacity(Var.teal500, 0.2),
-  'merge.incomingHeaderBackground': opacity(Var.lightBlue500, 0.6),
-  'merge.incomingContentBackground': opacity(Var.lightBlue500, 0.2),
+  'merge.currentHeaderBackground': opacity(Var.green700, 0.4),
+  'merge.currentContentBackground': opacity(Var.green700, 0.2),
+  'merge.incomingHeaderBackground': opacity(Var.blue700, 0.4),
+  'merge.incomingContentBackground': opacity(Var.blue700, 0.2),
+  'editorOverviewRuler.currentContentForeground': Var.green500,
+  'editorOverviewRuler.incomingContentForeground': Var.blue500,
+  'mergeEditor.change.background': opacity(Var.lime700, 0.1),
+  'mergeEditor.change.word.background': opacity(Var.lime700, 0.3),
+  'mergeEditor.conflict.unhandledUnfocused.border': Var.orange700,
+  'mergeEditor.conflict.unhandledFocused.border': Var.orange500,
+  'mergeEditor.conflict.handledUnfocused.border': Var.blue700,
+  'mergeEditor.conflict.handledFocused.border': Var.blue500,
+  'mergeEditor.conflict.handled.minimapOverViewRuler': Var.blue500,
+  'mergeEditor.conflict.unhandled.minimapOverViewRuler': Var.orange500,
   // panel
   'panelTitle.activeBorder': Var.deepPurpleA700,
   // statusBar

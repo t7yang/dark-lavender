@@ -101,6 +101,7 @@ export const mdm = {
   amber700: md.amber[700],
   amber900: md.amber[900],
   orange100: md.orange[100],
+  orange300: md.orange[300],
   orange500: md.orange[500],
   orange700: md.orange[700],
   orange900: md.orange[900],

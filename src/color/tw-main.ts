@@ -100,6 +100,7 @@ export const twm: ColorPalette = {
   amber700: tw.amber[700],
   amber900: tw.amber[900],
   orange100: tw.orange[100],
+  orange300: tw.orange[300],
   orange500: tw.orange[500],
   orange700: tw.orange[700],
   orange900: tw.orange[900],

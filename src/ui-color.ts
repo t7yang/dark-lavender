@@ -180,8 +180,12 @@ const uiColor: UiColor = {
   'notifications.background': Var.bgSm,
   'notifications.border': Var.deepPurpleA700,
   // extension
-  'extensionButton.prominentBackground': Var.deepPurpleA700,
-  'extensionButton.prominentHoverBackground': Var.deepPurpleA200,
+  'extensionButton.separator': Var.deepPurpleA700,
+  'extensionBadge.remoteBackground': Var.deepPurpleA200,
+  'extensionIcon.starForeground': Var.amber500,
+  'extensionIcon.verifiedForeground': Var.blue500,
+  'extensionIcon.preReleaseForeground': Var.orange500,
+  'extensionIcon.sponsorForeground': Var.yellow500,
   // integratedTerminal
   'terminal.ansiBlack': Var.blueGrey900,
   'terminal.ansiBlue': Var.blue900,

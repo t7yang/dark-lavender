@@ -56,7 +56,7 @@ const uiColor: UiColor = {
   'tab.activeBorder': Var.deepPurpleA400,
   'tab.activeForeground': Var.grey50,
   'tab.inactiveForeground': Var.grey500,
-  'tab.activeModifiedBorder': Var.yellow700,
+  'tab.activeModifiedBorder': Var.amber500,
   // editor
   'editor.foreground': Var.blueGrey100,
   'editor.background': Var.bgBs,
@@ -179,7 +179,7 @@ const uiColor: UiColor = {
   'gitDecoration.conflictingResourceForeground': Var.orange300,
   'gitDecoration.submoduleResourceForeground': Var.cyan300,
   // settingsEditor
-  'settings.modifiedItemIndicator': Var.yellow900,
+  'settings.modifiedItemIndicator': Var.amber700,
   'settings.focusedRowBorder': Var.deepPurpleA700,
   // Snippets colors
   'editor.snippetTabstopHighlightBackground': opacity(Var.deepPurpleA400, 0.5),

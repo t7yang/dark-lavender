@@ -31,7 +31,7 @@ function main(params: string) {
 delete location.href;
 // ^^^ 詞彙運算子
 
-/^foo-\d{1,2}([a-z])$/;
+/^foo-\{\}\d{1,2}([a-z])$/;
 //^^^ 一般文字
 //    ^^       ^^^ 字母分類
 //      ^^^^ 數量

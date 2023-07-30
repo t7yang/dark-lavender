@@ -31,7 +31,7 @@ function main(params: string) {
 delete location.href;
 // ^^^ word operator
 
-/^foo-\d{1,2}([a-z])$/;
+/^foo-\{\}\d{1,2}([a-z])$/;
 //^^^ normal string
 //    ^^       ^^^ escape string
 //      ^^^^ quantity

@@ -59,20 +59,20 @@
     "url": "https://github.com/t7yang/dark-lavender/issues"
   },
   "scripts": {
-    "update": "yarn upgrade-interactive",
+    "update": "ncu -i --format group",
     "dev": "tsnd --respawn src/themes.ts",
     "build": "tsnd src/themes.ts",
     "build:vs": "vsce package"
   },
   "devDependencies": {
-    "@types/chroma-js": "^2.1.4",
-    "@types/node": "^16.10.3",
+    "@types/chroma-js": "^2.4.0",
+    "@types/node": "^20.5.7",
     "chroma-js": "^2.4.2",
     "col-config": "^1.1.0",
     "material-colors-ts": "^1.0.4",
-    "tailwindcss": "^3.2.1",
+    "tailwindcss": "^3.3.3",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^4.7.4",
-    "vscode-typed-theme-generator": "^2.0.3"
+    "typescript": "^5.2.2",
+    "vscode-typed-theme-generator": "^2.0.6"
   }
 }

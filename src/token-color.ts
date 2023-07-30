@@ -140,7 +140,7 @@ export const tokenColors: TokenColor[] = [
     name: 'Integers, Float',
     scope: ['constant.numeric', 'constant.character.numeric', 'variable.other.anonymous.elixir'],
     settings: {
-      foreground: Var.pink100,
+      foreground: Var.pink200,
     },
   },
   {
@@ -153,14 +153,14 @@ export const tokenColors: TokenColor[] = [
       'support.function.variable.quoted.single.elixir',
     ],
     settings: {
-      foreground: Var.green100,
+      foreground: Var.green200,
     },
   },
   {
     name: 'Escape Characters',
     scope: ['constant.character.escape'],
     settings: {
-      foreground: Var.cyanA200,
+      foreground: Var.yellow200,
     },
   },
   {
@@ -182,7 +182,7 @@ export const tokenColors: TokenColor[] = [
     name: 'Regular Expression Quantifier',
     scope: ['keyword.operator.quantifier.regexp'],
     settings: {
-      foreground: Var.pink100,
+      foreground: Var.pink200,
     },
   },
   {

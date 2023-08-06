@@ -349,11 +349,18 @@ export const tokenColors: TokenColor[] = [
     },
   },
   {
+    name: 'Markup - List',
+    scope: ['markup.list', 'markup.list meta.paragraph'],
+    settings: {
+      foreground: Var.lime300,
+    },
+  },
+  {
     name: 'Markup - Quotes',
     scope: ['markup.quote meta.paragraph'],
     settings: {
       fontStyle: 'italic',
-      foreground: Var.blue100,
+      foreground: Var.blue300,
     },
   },
   {
@@ -361,7 +368,7 @@ export const tokenColors: TokenColor[] = [
     scope: ['markup.italic', 'punctuation.definition.italic'],
     settings: {
       fontStyle: 'italic',
-      foreground: Var.yellow100,
+      foreground: Var.deepOrange300,
     },
   },
   {
@@ -369,7 +376,7 @@ export const tokenColors: TokenColor[] = [
     scope: ['markup.bold', 'punctuation.definition.bold'],
     settings: {
       fontStyle: 'bold',
-      foreground: Var.deepOrange100,
+      foreground: Var.deepOrange300,
     },
   },
   {
@@ -384,7 +391,7 @@ export const tokenColors: TokenColor[] = [
     ],
     settings: {
       fontStyle: 'bold',
-      foreground: Var.deepOrange100,
+      foreground: Var.deepOrange300,
     },
   },
   {
@@ -392,7 +399,7 @@ export const tokenColors: TokenColor[] = [
     scope: ['markup.underline'],
     settings: {
       fontStyle: 'underline',
-      foreground: Var.deepOrange100,
+      foreground: Var.deepOrange300,
     },
   },
   {
@@ -420,21 +427,21 @@ export const tokenColors: TokenColor[] = [
     name: 'Markup - Changed',
     scope: ['markup.changed'],
     settings: {
-      foreground: Var.indigo500,
+      foreground: Var.blue500,
     },
   },
   {
-    name: 'Markup - Link Image',
-    scope: ['markup.underline.link.image'],
+    name: 'Markup - Link',
+    scope: ['meta.link', 'markup.underline.link'],
     settings: {
-      foreground: Var.green500,
+      foreground: Var.lightBlue300,
     },
   },
   {
-    name: 'Markup - Link Url',
-    scope: ['meta.link'],
+    name: 'Markup - Link Description',
+    scope: ['string.other.link'],
     settings: {
-      foreground: Var.indigo500,
+      foreground: Var.orange300,
     },
   },
   {

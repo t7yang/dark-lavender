@@ -4,6 +4,22 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [6.1.0]
+
+### Added
+
+- supported more token for diff and merge editor
+- supported more bracket pair highlight tokens
+- supported more extension tokens
+- supported more panel and keybinding tokens
+
+### Changed
+
+- update string and escaped string colors
+- update colors related to git
+- aligned modified indicator color
+- improved find and selection colors
+
 ## [6.0.0] - 2023-02-25
 
 ### Added

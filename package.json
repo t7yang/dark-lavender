@@ -67,14 +67,14 @@
     "build:vs": "vsce package"
   },
   "devDependencies": {
-    "@types/chroma-js": "^2.4.0",
-    "@types/node": "^20.5.7",
+    "@types/chroma-js": "^2.4.3",
+    "@types/node": "^20.10.5",
     "chroma-js": "^2.4.2",
     "col-config": "^1.1.0",
     "material-colors-ts": "^1.0.4",
-    "tailwindcss": "^3.3.3",
+    "tailwindcss": "^3.3.6",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.2.2",
+    "typescript": "^5.3.3",
     "vscode-typed-theme-generator": "^2.0.6"
   }
 }

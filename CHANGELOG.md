@@ -4,7 +4,14 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [6.1.0]
+## [6.1.3] - 2023-12-19
+
+### Changed
+
+- improved selection, word, and find highlight
+- darker folded background color
+
+## [6.1.0] - 2023-08-30
 
 ### Added
 

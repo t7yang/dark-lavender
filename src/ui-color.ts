@@ -106,7 +106,7 @@ const uiColor: UiColor = {
   'editorBracketPairGuide.background4': opacity(Var.lime300, 0.6),
   'editorBracketPairGuide.background5': opacity(Var.blue300, 0.6),
   'editorBracketPairGuide.background6': opacity(Var.amber300, 0.6),
-  'editor.foldBackground': opacity(Var.indigo500, 0.3),
+  'editor.foldBackground': opacity(Var.indigo700, 0.3),
   'editorOverviewRuler.modifiedForeground': Var.blue700,
   'editorOverviewRuler.addedForeground': Var.green700,
   'editorOverviewRuler.deletedForeground': Var.red700,

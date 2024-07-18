@@ -1,5 +1,9 @@
 {
   "extends": "col-config/typescript/tsconfig.strict.json",
-  "compilerOptions": { "importHelpers": false },
+  "compilerOptions": {
+    "module": "Preserve",
+    "moduleResolution": "Bundler",
+    "importHelpers": false
+  },
   "include": ["src"]
 }

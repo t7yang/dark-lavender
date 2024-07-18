@@ -7,3 +7,4 @@ images/*.*
 !images/icon.png
 .gitignore
 vsc-extension-quickstart.md
+tsconfig.*

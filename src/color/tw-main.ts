@@ -1,5 +1,5 @@
 import tw from 'tailwindcss/colors';
-import { ColorPalette } from './md-main';
+import { type ColorPalette } from './md-main';
 
 export const twm: ColorPalette = {
   red300: tw.rose[300],

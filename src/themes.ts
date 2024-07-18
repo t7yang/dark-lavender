@@ -1,4 +1,9 @@
-import { createVsCodeTheme, CreateVsCodeThemeConfig, UiColor, VsCodeThemeMeta } from 'vscode-typed-theme-generator';
+import {
+  createVsCodeTheme,
+  type CreateVsCodeThemeConfig,
+  type UiColor,
+  type VsCodeThemeMeta,
+} from 'vscode-typed-theme-generator';
 import { semanticTokenColors } from './semantic-color';
 import { variantTokenColor } from './token-color';
 import { variantUiColor } from './ui-color';

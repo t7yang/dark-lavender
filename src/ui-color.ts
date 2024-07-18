@@ -1,4 +1,4 @@
-import { createVariantUiColor, opacity, UiColor } from 'vscode-typed-theme-generator';
+import { createVariantUiColor, opacity, type UiColor } from 'vscode-typed-theme-generator';
 import { colors, Var, variant } from './color';
 
 const uiColor: UiColor = {

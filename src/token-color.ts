@@ -1,4 +1,4 @@
-import { createVariantTokenColors, TokenColor } from 'vscode-typed-theme-generator';
+import { createVariantTokenColors, type TokenColor } from 'vscode-typed-theme-generator';
 import { Var, variant } from './color';
 
 export const tokenColors: TokenColor[] = [

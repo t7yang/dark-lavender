@@ -297,6 +297,7 @@ export const tokenColors: TokenColor[] = [
       'variable.other.constant.property',
       'variable.other.member',
       'variable.other.object.property',
+      'variable.other.enummember',
       'variable.other.property',
       'variable.other.readwrite.class',
       'variable.other.readwrite.instance',

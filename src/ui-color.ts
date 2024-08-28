@@ -5,6 +5,7 @@ const uiColor: UiColor = {
   // base
   focusBorder: Var.deepPurpleA700,
   foreground: Var.blueGrey100,
+  'widget.border': Var.deepPurpleA200,
   errorForeground: Var.pink700,
   'icon.foreground': Var.deepPurpleA200,
   // text

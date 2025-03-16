@@ -4,6 +4,18 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [6.2.0] - 2025-03-17
+
+### Added
+
+- `widget.border`
+- symbol icons colors
+
+### Fixed
+
+- enum member color
+- CSS keyframes identifier and animation value
+
 ## [6.1.3] - 2023-12-19
 
 ### Changed

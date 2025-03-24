@@ -73,7 +73,7 @@
     "chroma-js": "^3.1.2",
     "col-config": "^1.2.0",
     "material-colors-ts": "^1.0.4",
-    "tailwindcss": "^4.0.14",
+    "tailwindcss": "^3.3.6",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2",
     "vscode-typed-theme-generator": "^4.0.1"

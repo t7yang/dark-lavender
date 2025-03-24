@@ -4,6 +4,12 @@ All notable changes to the "dark-lavender" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [6.2.1] - 2025-03024
+
+### Fixed
+
+- Tailwind themes broken (v4 using oklch)
+
 ## [6.2.0] - 2025-03-17
 
 ### Added
